@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(255, 255, 255, 0);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+}
+
+#text-box {
+  height: 205px;
+  position: fixed;
+  left: 19%;
+  right: 19%;
+  bottom: 0%;
+  color: white;
+}
+
+#name {
+  -webkit-text-stroke: 1px black;
+  text-shadow: #000 0px 0px 5px, #000 0px 0px 5px, #000 0px 0px 5px,
+    #000 0px 0px 5px, #000 0px 0px 5px, #000 0px 0px 5px, #000 0px 0px 5px,
+    #000 0px 0px 5px, #000 0px 0px 5px;
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+#text-en {
+  -webkit-text-stroke: 1px black;
+  text-shadow: #000 0px 0px 3px, #000 0px 0px 3px, #000 0px 0px 3px,
+    #000 0px 0px 3px, #000 0px 0px 3px, #000 0px 0px 3px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 25%;
+}
+#text-jp {
+  text-shadow: #000 0px 0px 3px, #000 0px 0px 3px, #000 0px 0px 3px,
+    #000 0px 0px 3px, #000 0px 0px 3px, #000 0px 0px 3px;
+  font-family: "Sawarabi Gothic";
+  margin-top: 2.5rem;
+  position: fixed;
+  bottom: 5%;
+  font-size: 1rem;
+}
