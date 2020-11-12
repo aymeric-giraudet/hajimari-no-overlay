@@ -24,4 +24,7 @@ jobs:
           node-version: 14
 
       - name: Yarn make
-        run: yarn make
+        run: |
+             yarn
+             yarn make
+        
