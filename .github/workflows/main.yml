@@ -29,7 +29,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [macos-latest, ubuntu-latest, windows-latest]
+        os: [macos-latest, windows-latest]
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v1
@@ -40,16 +40,24 @@ jobs:
       - name: Yarn make
         run: |
              yarn
-             yarn make   
-      - name: Set file path
-        id: set-path
-        run: echo ::set-output name=path::$(find out -iname *.zip)          
-      - name: Upload release assets
+             yarn make             
+      - name: Upload windows asset
+        if: matrix.os == 'windows-latest'
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.create_release.outputs.upload_url }}
-          asset_name: hajimari-no-overlay-${{ matrix.os }}.zip
-          asset_path: ./${{ steps.set-path.outputs.path }}
+          asset_name: hajimari-no-overlay-win32.zip
+          asset_path: ./out/make/zip/win32/x64/hajimari-no-overlay-win32-x64-0.0.1.zip
+          asset_content_type: application/zip
+      - name: Upload mac asset
+        if: matrix.os == 'macos-latest'
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ needs.create_release.outputs.upload_url }}
+          asset_name: hajimari-no-overlay-macos.zip
+          asset_path: ./out/make/zip/darwin/x64/hajimari-no-overlay-darwin-x64-0.0.1.zip
           asset_content_type: application/zip
