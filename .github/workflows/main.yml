@@ -4,28 +4,52 @@ on:
   workflow_dispatch:
   push:
     tags: 
-      - v1.*
+      - v[0-9]+.*
 
 jobs:
+  create_release:
+    name: Create release
+    runs-on: ubuntu-latest
+    outputs:
+      upload_url: ${{ steps.create_release.outputs.upload_url }}
+    steps:
+      - name: Create release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: false
+          prerelease: false
   release:
+    name: Release assets
+    needs: [create_release]
     runs-on: ${{ matrix.os }}
-
     strategy:
       matrix:
         os: [macos-latest, ubuntu-latest, windows-latest]
-
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v1
-
       - name: Install Node.js, NPM and Yarn
         uses: actions/setup-node@v1
         with:
           node-version: 14
-
       - name: Yarn make
         run: |
              yarn
              yarn make
-             ls -R out/make/zip
-        
+      - name: Set file path
+        id: set-path
+        run: echo ::set-output name=path::$(ls -R out/**/*.zip)
+      - name: Upload release assets
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ needs.create_release.outputs.upload_url }}
+          asset_name: hajimari-no-overlay-${{ matrix.os }}
+          asset_path: ./${{ steps.set-path.outputs.path }}
+          asset_content_type: application/zip
