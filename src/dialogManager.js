@@ -2,6 +2,7 @@ import chapters from "./lines.js";
 
 let textFrozen = false;
 let currentChapter = "Prologue";
+let timeout;
 
 const savedChapter = localStorage.getItem("currentChapter");
 if (savedChapter) {
@@ -34,7 +35,18 @@ function render(line) {
   const name = document.getElementById("name");
   name.innerText = line.name || "";
   const english = document.getElementById("text-en");
-  english.innerText = line.en || "";
+  english.innerText = "";
+  var i = 0;
+  var txt = line.en;
+  function typeWriter() {
+    if (i < txt.length) {
+      document.getElementById("text-en").innerHTML += txt.charAt(i);
+      i++;
+      timeout = setTimeout(typeWriter, 20);
+    }
+  }
+  timeout && clearTimeout(timeout);
+  typeWriter();
   const japanese = document.getElementById("text-jp");
   japanese.innerText = line.jp || "";
   localStorage.setItem("currentLine", lines.current);
@@ -55,7 +67,7 @@ export function backwardText() {
 
 export function freezeText() {
   textFrozen = !textFrozen;
-  const textBox = document.getElementById("text-box");
+  const textBox = document.getElementById("dialog");
   if (textFrozen) {
     textBox.style.display = "none";
   } else {
