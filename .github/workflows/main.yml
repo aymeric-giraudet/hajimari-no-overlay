@@ -43,13 +43,13 @@ jobs:
              yarn make   
       - name: Set file path
         id: set-path
-        run: echo ::set-output name=path::$(find out -iname \*.zip)          
+        run: echo ::set-output name=path::$(find out -iname *.zip)          
       - name: Upload release assets
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.create_release.outputs.upload_url }}
-          asset_name: hajimari-no-overlay-${{ matrix.os }}
+          asset_name: hajimari-no-overlay-${{ matrix.os }}.zip
           asset_path: ./${{ steps.set-path.outputs.path }}
           asset_content_type: application/zip
