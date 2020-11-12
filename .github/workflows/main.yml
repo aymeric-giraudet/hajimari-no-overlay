@@ -38,12 +38,12 @@ jobs:
         with:
           node-version: 14
       - name: Yarn make
+        id: set-path
         run: |
              yarn
              yarn make
-      - name: Set file path
-        id: set-path
-        run: echo ::set-output name=path::$(ls -R out/**/*.zip)
+             ls -R out/make/zip/
+             echo ::set-output name=path::$(ls -R out/**/*.zip)
       - name: Upload release assets
         uses: actions/upload-release-asset@v1
         env:
