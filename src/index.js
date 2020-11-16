@@ -2,6 +2,11 @@ import registerButtonHandlers from "./gamepad.js";
 import { advanceText, backwardText, freezeText } from "./dialogManager.js";
 import registerKeyHandlers from "./keyboard.js";
 
+if (window.api.getPlatform() === "darwin") {
+  document.getElementById("name").classList.add("textStroke");
+  document.getElementById("text-en").classList.add("textStroke");
+}
+
 registerButtonHandlers({
   cross: advanceText,
   l2: backwardText,
@@ -12,8 +17,6 @@ registerButtonHandlers({
 registerKeyHandlers({
   ArrowRight: advanceText,
   ArrowLeft: backwardText,
-  a: backwardText,
-  d: advanceText,
   Tab: () => {
     const controls = document.getElementById("controls");
     if (controls.style.display === "none") {

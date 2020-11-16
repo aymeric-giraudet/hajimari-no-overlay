@@ -10,8 +10,6 @@ class TraversableArray extends Array {
   }
 }
 
-console.log("called !");
-
 const translations = window.api.getTranslations();
 const lines = Object.fromEntries(
   Object.entries(translations).map(([chapter, trans]) => [

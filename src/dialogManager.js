@@ -3,6 +3,8 @@ import chapters from "./lines.js";
 let textFrozen = false;
 let currentChapter = "Prologue";
 let timeout;
+let speed;
+let finished = true;
 
 const savedChapter = localStorage.getItem("currentChapter");
 if (savedChapter) {
@@ -32,28 +34,46 @@ function render(line) {
   chapter.value = currentChapter;
   const lineNumber = document.getElementById("line-number");
   lineNumber.value = lines.current;
+
   const name = document.getElementById("name");
   name.innerText = line.name || "";
-  const english = document.getElementById("text-en");
-  english.innerText = "";
-  var i = 0;
-  var txt = line.en;
-  function typeWriter() {
-    if (i < txt.length) {
-      document.getElementById("text-en").innerHTML += txt.charAt(i);
-      i++;
-      timeout = setTimeout(typeWriter, 20);
-    }
-  }
-  timeout && clearTimeout(timeout);
-  typeWriter();
+
+  typeWriter(line.en);
+
   const japanese = document.getElementById("text-jp");
   japanese.innerText = line.jp || "";
+
   localStorage.setItem("currentLine", lines.current);
   localStorage.setItem("currentChapter", currentChapter);
 }
 
+function typeWriter(txt) {
+  const english = document.getElementById("text-en");
+  english.innerText = "";
+  speed = 20;
+  finished = false;
+  function* iterateText() {
+    yield* txt;
+  }
+  const characters = iterateText();
+  function typeCharacter() {
+    const character = characters.next();
+    if (!character.done) {
+      document.getElementById("text-en").innerHTML += character.value;
+      timeout = setTimeout(typeCharacter, speed);
+    } else {
+      finished = true;
+    }
+  }
+  timeout && clearTimeout(timeout);
+  typeCharacter();
+}
+
 export function advanceText() {
+  if (!finished) {
+    speed = 1;
+    return;
+  }
   if (!textFrozen) {
     render(lines.next());
   }
