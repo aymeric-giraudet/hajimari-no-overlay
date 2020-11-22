@@ -10,8 +10,6 @@ class TraversableArray extends Array {
   }
 }
 
-window.api.getTranslations();
-
 function mapTranslations(translations) {
   const episodesSelect = document.getElementById("episode");
   translations.Episodes.forEach((episode, index) => {

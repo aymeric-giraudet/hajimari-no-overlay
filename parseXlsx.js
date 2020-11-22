@@ -2,6 +2,8 @@ const xlsx = require("xlsx");
 const fs = require("fs");
 const https = require("follow-redirects").https;
 const concat = require("concat-stream");
+const path = require("path");
+const getAppDataPath = require("./getAppDataPath");
 
 function download(url, cb) {
   const concatStream = concat(cb);
@@ -45,10 +47,26 @@ module.exports = function downloadAndParseTranslations(cb) {
           ),
       };
       cb(translations);
-      fs.writeFileSync(
-        "translation.json",
-        JSON.stringify({ date: new Date(), ...translations })
-      );
+      saveAppData("translation.json", { date: new Date(), ...translations });
     }
   );
 };
+
+function saveAppData(name, content) {
+  const appDataDirPath = getAppDataPath();
+
+  if (!fs.existsSync(appDataDirPath)) {
+    fs.mkdirSync(appDataDirPath);
+  }
+
+  const appDataFilePath = path.join(appDataDirPath, name);
+  content = JSON.stringify(content);
+
+  fs.writeFile(appDataFilePath, content, (err) => {
+    if (err) {
+      console.log("There was a problem saving data!");
+    } else {
+      console.log("Data saved correctly!");
+    }
+  });
+}
