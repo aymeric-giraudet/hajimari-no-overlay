@@ -14,6 +14,9 @@
     "electron": "^10.1.5"
   },
   "dependencies": {
+    "concat-stream": "^2.0.0",
+    "follow-redirects": "^1.13.0",
+    "typeface-sawarabi-gothic": "^1.1.13",
     "xlsx": "^0.16.8"
   },
   "config": {

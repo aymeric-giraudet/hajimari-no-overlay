@@ -8,6 +8,48 @@ body {
 
 #controls {
   margin: 2rem;
+  display: none;
+}
+
+#episode {
+  display: none;
+}
+
+#update {
+  float: right;
+  position: relative;
+}
+
+#updated-at {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  position: absolute;
+  z-index: 1;
+}
+
+#update:hover #updated-at {
+  visibility: visible;
+}
+
+#updating {
+  color: white;
+  text-shadow: #000 0px 0px 5px, #000 0px 0px 5px, #000 0px 0px 5px,
+    #000 0px 0px 5px, #000 0px 0px 5px, #000 0px 0px 5px, #000 0px 0px 5px,
+    #000 0px 0px 5px, #000 0px 0px 5px;
+  font-weight: 600;
+  font-size: 2.2rem;
+  position: absolute;
+  left: 30%;
+  top: 45%;
+  display: none;
 }
 
 #dialog {
@@ -59,6 +101,7 @@ body {
 #text-jp {
   text-shadow: #000 0px 0px 3px, #000 0px 0px 3px, #000 0px 0px 3px,
     #000 0px 0px 3px, #000 0px 0px 3px, #000 0px 0px 3px;
+  font-family: "Sawarabi Gothic";
   margin-top: 2.5rem;
   position: fixed;
   bottom: 2%;

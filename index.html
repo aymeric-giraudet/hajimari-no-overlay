@@ -3,8 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'" />
-    <script type="module" src="src/index.js"></script>
+    <link
+      rel="stylesheet"
+      href="node_modules/typeface-sawarabi-gothic/index.css"
+    />
     <link rel="stylesheet" href="index.css" />
+    <script type="module" src="src/index.js"></script>
   </head>
   <body>
     <div id="controls">
@@ -16,9 +20,15 @@
         <option value="Chapter4">Chapter 4</option>
         <option value="LastChapter">Last Chapter</option>
         <option value="ExtraChapter">Extra Chapter</option>
+        <option value="Episodes">Episodes --></option>
       </select>
-      <input type="number" id="line-number" />
+      <select name="episode" id="episode"></select>
+      <input type="number" min="0" id="line-number" />
+      <button type="button" id="update">
+        Update translations<span id="updated-at"></span>
+      </button>
     </div>
+    <div id="updating">Updating translations, please wait...</div>
     <div id="dialog">
       <div id="text-box">
         <div id="name"></div>

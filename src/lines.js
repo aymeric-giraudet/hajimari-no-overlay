@@ -10,12 +10,39 @@ class TraversableArray extends Array {
   }
 }
 
-const translations = window.api.getTranslations();
-const lines = Object.fromEntries(
-  Object.entries(translations).map(([chapter, trans]) => [
-    chapter,
-    new TraversableArray(...trans),
-  ])
-);
+window.api.getTranslations();
 
-export default lines;
+function mapTranslations(translations) {
+  const episodesSelect = document.getElementById("episode");
+  translations.Episodes.forEach((episode, index) => {
+    const option = document.createElement("option");
+    option.value = index;
+    option.innerText = episode[0].en;
+    episodesSelect.appendChild(option);
+  });
+  return {
+    ...Object.fromEntries(
+      Object.entries(translations).map(([chapter, trans]) => [
+        chapter,
+        chapter === "Episodes"
+          ? trans.map((episode) => new TraversableArray(...episode))
+          : new TraversableArray(...trans),
+      ])
+    ),
+    date: translations.date,
+  };
+}
+
+let chapters = mapTranslations(window.api.getTranslations());
+
+async function updateTranslations() {
+  return new Promise((resolve) => {
+    window.api.updateTranslations((result) => {
+      chapters = mapTranslations(result);
+      chapters.date = new Date().toString();
+      resolve();
+    });
+  });
+}
+
+export { chapters, updateTranslations };

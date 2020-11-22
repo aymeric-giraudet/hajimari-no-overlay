@@ -2,6 +2,9 @@ import registerButtonHandlers from "./gamepad.js";
 import { advanceText, backwardText, freezeText } from "./dialogManager.js";
 import registerKeyHandlers from "./keyboard.js";
 
+document.getElementById("controls").style.display = "none";
+document.getElementById("updating").style.display = "none";
+
 if (window.api.getPlatform() === "darwin") {
   document.getElementById("name").classList.add("textStroke");
   document.getElementById("text-en").classList.add("textStroke");
