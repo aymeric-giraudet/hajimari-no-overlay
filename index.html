@@ -24,11 +24,15 @@
           <option value="Episodes">Episodes --></option>
         </select>
         <select name="episode" id="episode"></select>
-        <input type="number" min="0" id="line-number">
+        <input type="number" min="0" id="line-number" />
       </div>
       <div id="more-options">
         <div>
-          <input type="checkbox" id="checkbox-hide-text-jp" name="checkbox-hide-text-jp">
+          <input
+            type="checkbox"
+            id="checkbox-hide-text-jp"
+            name="checkbox-hide-text-jp"
+          />
           <label for="checkbox-hide-text-jp">Hide Japanese Text</label>
         </div>
         <select name="text-speed" id="text-speed">
@@ -37,9 +41,7 @@
           <option value="10">Fast</option>
           <option value="0">Immediate</option>
         </select>
-        <button type="button" id="update">
-          Update translations
-        </button>
+        <button type="button" id="update">Update translations</button>
       </div>
     </div>
     <div id="updating">Updating translations, please wait...</div>

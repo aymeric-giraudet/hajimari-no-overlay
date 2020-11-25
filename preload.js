@@ -13,6 +13,6 @@ contextBridge.exposeInMainWorld("api", {
     const translations = fs.readFileSync(file);
     return JSON.parse(translations);
   },
-  updateTranslations: (cb) => downloadAndParseTranslations(cb),
+  updateTranslations: downloadAndParseTranslations,
   getPlatform: () => process.platform,
 });
