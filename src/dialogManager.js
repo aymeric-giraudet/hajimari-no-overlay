@@ -4,8 +4,38 @@ let textFrozen = false;
 let currentChapter = "Prologue";
 let currentEpisode = "0";
 let timeout;
-let speed;
+let currentLineSpeed;
+let textSpeed;
+let hideJapaneseText;
 let finished = true;
+
+const textSpeedSelect = document.getElementById("text-speed");
+const textSpeedOptions = textSpeedSelect.options;
+
+function setupTextSpeed() {
+  textSpeed = localStorage.getItem("textSpeed");
+  if (textSpeed) {
+    textSpeed = parseInt(textSpeed);
+  } else {
+    textSpeed = 20;
+  }
+
+  Array.apply(null, textSpeedOptions).some(function(option, index) {
+    if (option.value == textSpeed) {
+      textSpeedSelect.selectedIndex = index;
+      return true;
+    }
+
+    return false;
+  });
+
+  textSpeedSelect.addEventListener("change", function(evt) {
+    textSpeed = parseInt(textSpeedSelect.value);
+    localStorage.setItem("textSpeed", textSpeed);
+  });
+}
+
+setupTextSpeed();
 
 const savedChapter = localStorage.getItem("currentChapter");
 if (savedChapter) {
@@ -70,6 +100,22 @@ document.getElementById("update").addEventListener("click", async (evt) => {
   render(lines[lines.current]);
 });
 
+const hideJapaneseCheckbox = document.getElementById("checkbox-hide-text-jp");
+const textJPElement = document.getElementById("text-jp");
+hideJapaneseText = localStorage.getItem("hideJapaneseText");
+if (hideJapaneseText === "true") {
+  hideJapaneseCheckbox.checked = true;
+  textJPElement.classList.add("hide");
+}
+hideJapaneseCheckbox.addEventListener("click", function(evt) {
+  textJPElement.classList.toggle("hide");
+  if (textJPElement.classList.contains("hide")) {
+    localStorage.setItem("hideJapaneseText", "true");
+  } else {
+    localStorage.setItem("hideJapaneseText", "false");
+  }
+});
+
 function render(line) {
   const chapter = document.getElementById("chapter");
   chapter.value = currentChapter;
@@ -77,8 +123,8 @@ function render(line) {
   episode.value = currentEpisode;
   const lineNumber = document.getElementById("line-number");
   lineNumber.value = lines.current;
-  const updatedAt = document.getElementById("updated-at");
-  updatedAt.innerText = `Last update : ${new Date(
+  const updateBtn = document.getElementById("update");
+  updateBtn.title = `Last update : ${new Date(
     chapters.date
   ).toLocaleString()}`;
 
@@ -98,28 +144,49 @@ function render(line) {
 function typeWriter(txt = "") {
   const english = document.getElementById("text-en");
   english.innerText = "";
-  speed = 20;
+  currentLineSpeed = textSpeed;
   finished = false;
+
   function* iterateText() {
     yield* txt;
   }
-  const characters = iterateText();
+
+  function sanitize(string) {
+    const map = {
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      '"': "&quot;",
+      "'": "&#x27;",
+      "/": "&#x2F;",
+    };
+    const reg = /[&<>"'/]/ig;
+    return string.replace(reg, (match) => (map[match]));
+  }
+
   function typeCharacter() {
+    if (currentLineSpeed == 0) {
+      english.innerHTML = sanitize(txt);
+      finished = true;
+      return;
+    }
     const character = characters.next();
     if (!character.done) {
-      english.innerHTML += character.value;
-      timeout = setTimeout(typeCharacter, speed);
+      english.innerHTML += sanitize(character.value);
+      timeout = setTimeout(typeCharacter, currentLineSpeed);
     } else {
       finished = true;
     }
   }
+
+  const characters = iterateText();
   timeout && clearTimeout(timeout);
   typeCharacter();
 }
 
 export function advanceText() {
   if (!finished) {
-    speed = 1;
+    currentLineSpeed = 0;
     return;
   }
   if (!textFrozen) {

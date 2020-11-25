@@ -60,7 +60,7 @@ function saveAppData(name, content) {
   }
 
   const appDataFilePath = path.join(appDataDirPath, name);
-  content = JSON.stringify(content);
+  content = JSON.stringify(content, null, 2);
 
   fs.writeFile(appDataFilePath, content, (err) => {
     if (err) {

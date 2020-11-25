@@ -23,7 +23,7 @@ registerKeyHandlers({
   Tab: () => {
     const controls = document.getElementById("controls");
     if (controls.style.display === "none") {
-      controls.style.display = "block";
+      controls.style.display = "flex";
     } else {
       controls.style.display = "none";
     }
