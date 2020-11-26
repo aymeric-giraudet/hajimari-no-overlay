@@ -5,19 +5,19 @@ let currentChapter = "Prologue";
 let currentEpisode = "0";
 let timeout;
 let currentLineSpeed;
-let textSpeed;
-let hideJapaneseText;
-let finished = true;
+let lines;
+let textSpeed = 20;
+let isLineFinished = true;
 
-const textSpeedSelect = document.getElementById("text-speed");
-const textSpeedOptions = textSpeedSelect.options;
+const dialogContainer = document.getElementById("dialog");
 
-function setupTextSpeed() {
-  textSpeed = localStorage.getItem("textSpeed");
-  if (textSpeed) {
-    textSpeed = parseInt(textSpeed);
-  } else {
-    textSpeed = 20;
+function initializeTextSpeed() {
+  const textSpeedSelect = document.getElementById("text-speed");
+  const textSpeedOptions = textSpeedSelect.options;
+
+  const savedTextSpeed = localStorage.getItem("textSpeed");
+  if (savedTextSpeed) {
+    textSpeed = parseInt(savedTextSpeed);
   }
 
   Array.apply(null, textSpeedOptions).some(function(option, index) {
@@ -35,86 +35,97 @@ function setupTextSpeed() {
   });
 }
 
-setupTextSpeed();
-
-const savedChapter = localStorage.getItem("currentChapter");
-if (savedChapter) {
-  currentChapter = savedChapter;
-}
-const savedEpisode = localStorage.getItem("currentEpisode");
-if (savedEpisode) {
-  currentEpisode = savedEpisode;
-}
-
-let lines;
-if (currentChapter === "Episodes") {
-  lines = chapters.Episodes[parseInt(currentEpisode)];
-  document.getElementById("episode").style.display = "inline";
-} else {
-  lines = chapters[currentChapter];
-}
-
-const savedLine = localStorage.getItem("currentLine");
-if (savedLine) {
-  lines.current = parseInt(savedLine);
-  render(lines[lines.current]);
-}
-
-document.getElementById("chapter").addEventListener("change", (evt) => {
-  currentChapter = evt.target.value;
-  if (currentChapter === "Episodes") {
-    document.getElementById("episode").style.display = "inline";
-    lines = chapters.Episodes[parseInt(currentEpisode)];
-  } else {
-    document.getElementById("episode").style.display = "none";
-    lines = chapters[currentChapter];
+function initializeTextPosition() {
+  const savedChapter = localStorage.getItem("currentChapter");
+  if (savedChapter) {
+    currentChapter = savedChapter;
   }
-  render(lines.next());
-});
 
-document.getElementById("episode").addEventListener("change", (evt) => {
-  currentEpisode = evt.target.value;
-  lines = chapters.Episodes[parseInt(currentEpisode)];
-  render(lines.next());
-});
+  const savedEpisode = localStorage.getItem("currentEpisode");
+  if (savedEpisode) {
+    currentEpisode = savedEpisode;
+  }
 
-document.getElementById("line-number").addEventListener("change", (evt) => {
-  lines.current = parseInt(evt.target.value) - 1;
-  render(lines.next());
-});
-
-document.getElementById("update").addEventListener("click", async (evt) => {
-  document.getElementById("updating").style.display = "block";
-  document.getElementById("update").disabled = true;
-  await updateTranslations();
-  document.getElementById("updating").style.display = "none";
-  document.getElementById("update").disabled = false;
   if (currentChapter === "Episodes") {
     lines = chapters.Episodes[parseInt(currentEpisode)];
     document.getElementById("episode").style.display = "inline";
   } else {
     lines = chapters[currentChapter];
   }
+
   const savedLine = localStorage.getItem("currentLine");
-  lines.current = parseInt(savedLine);
-  render(lines[lines.current]);
-});
-
-const hideJapaneseCheckbox = document.getElementById("checkbox-hide-text-jp");
-const textJPElement = document.getElementById("text-jp");
-hideJapaneseText = localStorage.getItem("hideJapaneseText");
-if (hideJapaneseText === "true") {
-  hideJapaneseCheckbox.checked = true;
-  textJPElement.classList.add("hide");
-}
-hideJapaneseCheckbox.addEventListener("click", function(evt) {
-  textJPElement.classList.toggle("hide");
-  if (textJPElement.classList.contains("hide")) {
-    localStorage.setItem("hideJapaneseText", "true");
-  } else {
-    localStorage.setItem("hideJapaneseText", "false");
+  if (savedLine) {
+    lines.current = parseInt(savedLine);
+    render(lines[lines.current]);
   }
-});
+
+  document.getElementById("chapter").addEventListener("change", (evt) => {
+    currentChapter = evt.target.value;
+    if (currentChapter === "Episodes") {
+      document.getElementById("episode").style.display = "inline";
+      lines = chapters.Episodes[parseInt(currentEpisode)];
+    } else {
+      document.getElementById("episode").style.display = "none";
+      lines = chapters[currentChapter];
+    }
+    render(lines.next());
+  });
+
+  document.getElementById("episode").addEventListener("change", (evt) => {
+    currentEpisode = evt.target.value;
+    lines = chapters.Episodes[parseInt(currentEpisode)];
+    render(lines.next());
+  });
+
+  document.getElementById("line-number").addEventListener("change", (evt) => {
+    lines.current = parseInt(evt.target.value) - 1;
+    render(lines.next());
+  });
+}
+
+function initalizeUpdateTranslations() {
+  document.getElementById("update").addEventListener("click", async (evt) => {
+    document.getElementById("updating").style.display = "block";
+    document.getElementById("update").disabled = true;
+    await updateTranslations();
+    document.getElementById("updating").style.display = "none";
+    document.getElementById("update").disabled = false;
+
+    if (currentChapter === "Episodes") {
+      lines = chapters.Episodes[parseInt(currentEpisode)];
+      document.getElementById("episode").style.display = "inline";
+    } else {
+      lines = chapters[currentChapter];
+    }
+
+    const savedLine = localStorage.getItem("currentLine");
+    lines.current = parseInt(savedLine);
+    render(lines[lines.current]);
+  });
+}
+
+function initializeHideJapaneseText() {
+  const hideJapaneseCheckbox = document.getElementById("checkbox-hide-text-jp");
+  const textJPElement = document.getElementById("text-jp");
+  const savedHideJapaneseTextStatus = localStorage.getItem("hideJapaneseText");
+
+  if (savedHideJapaneseTextStatus === "true") {
+    hideJapaneseCheckbox.checked = true;
+    textJPElement.classList.add("hide");
+    dialogContainer.classList.add("hide-text-jp");
+  }
+
+  hideJapaneseCheckbox.addEventListener("click", function(evt) {
+    textJPElement.classList.toggle("hide");
+    dialogContainer.classList.toggle("hide-text-jp");
+
+    if (textJPElement.classList.contains("hide")) {
+      localStorage.setItem("hideJapaneseText", "true");
+    } else {
+      localStorage.removeItem("hideJapaneseText");
+    }
+  });
+}
 
 function render(line) {
   const chapter = document.getElementById("chapter");
@@ -145,7 +156,7 @@ function typeWriter(txt = "") {
   const english = document.getElementById("text-en");
   english.innerText = "";
   currentLineSpeed = textSpeed;
-  finished = false;
+  isLineFinished = false;
 
   function* iterateText() {
     yield* txt;
@@ -167,7 +178,7 @@ function typeWriter(txt = "") {
   function typeCharacter() {
     if (currentLineSpeed == 0) {
       english.innerHTML = sanitize(txt);
-      finished = true;
+      isLineFinished = true;
       return;
     }
     const character = characters.next();
@@ -175,7 +186,7 @@ function typeWriter(txt = "") {
       english.innerHTML += sanitize(character.value);
       timeout = setTimeout(typeCharacter, currentLineSpeed);
     } else {
-      finished = true;
+      isLineFinished = true;
     }
   }
 
@@ -185,7 +196,7 @@ function typeWriter(txt = "") {
 }
 
 export function advanceText() {
-  if (!finished) {
+  if (!isLineFinished) {
     currentLineSpeed = 0;
     return;
   }
@@ -202,10 +213,14 @@ export function backwardText() {
 
 export function freezeText() {
   textFrozen = !textFrozen;
-  const textBox = document.getElementById("dialog");
   if (textFrozen) {
-    textBox.style.display = "none";
+    dialogContainer.style.display = "none";
   } else {
-    textBox.style.display = "block";
+    dialogContainer.style.display = "block";
   }
 }
+
+initializeTextSpeed();
+initializeTextPosition();
+initalizeUpdateTranslations();
+initializeHideJapaneseText();

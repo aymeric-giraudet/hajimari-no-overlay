@@ -44,28 +44,30 @@ body {
 
 #dialog {
   background: rgb(0, 0, 0);
-  background: rgb(0, 0, 0);
-  background: rgb(0, 0, 0);
   background: linear-gradient(
     0deg,
     rgba(0, 0, 0, 1) 0%,
-    rgba(0, 0, 0, 0.85) 25%,
-    rgba(0, 0, 0, 0.6) 50%,
-    rgba(0, 0, 0, 0.4) 75%,
+    rgba(0, 0, 0, 0.85) 60%,
+    rgba(0, 0, 0, 0.7) 75%,
+    rgba(0, 0, 0, 0.5) 85%,
+    rgba(0, 0, 0, 0.4) 90%,
+    rgba(0, 0, 0, 0.2) 95%,
     rgba(0, 0, 0, 0) 100%
   );
   position: fixed;
   bottom: 0%;
   width: 100%;
-  height: 205px;
+  min-height: 232px;
+}
+
+#dialog.hide-text-jp {
+  min-height: 180px;
 }
 
 #text-box {
-  height: 205px;
-  position: fixed;
-  left: 19%;
-  right: 19%;
-  bottom: 0%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 5rem;
   color: white;
 }
 
@@ -82,13 +84,11 @@ body {
 }
 
 #text-en {
-  margin: 0;
+  margin: 0.5rem 0 0;
   text-shadow: #000 0px 0px 3px, #000 0px 0px 3px, #000 0px 0px 3px,
     #000 0px 0px 3px, #000 0px 0px 3px, #000 0px 0px 3px;
   font-weight: 600;
   font-size: 1.5rem;
-  position: absolute;
-  top: 25%;
 }
 
 #text-jp {
@@ -96,8 +96,6 @@ body {
     #000 0px 0px 3px, #000 0px 0px 3px, #000 0px 0px 3px;
   font-family: "Sawarabi Gothic";
   margin-top: 2.5rem;
-  position: fixed;
-  bottom: 2%;
   font-size: 1rem;
 }
 
