@@ -29,6 +29,7 @@ module.exports = function downloadAndParseTranslations(cb) {
             xlsx.utils
               .sheet_to_json(file.Sheets[name], {
                 header: ["name", "en", "jp"],
+                blankrows: true,
               })
               .slice(name === "Prologue" ? 22 : 1),
           ])
@@ -36,6 +37,7 @@ module.exports = function downloadAndParseTranslations(cb) {
         Episodes: xlsx.utils
           .sheet_to_json(file.Sheets["Episodes"], {
             header: ["name", "en", "jp", "flag"],
+            blankrows: true,
           })
           .slice(1)
           .reduce(
