@@ -10,6 +10,10 @@ if (window.api.getPlatform() === "darwin") {
   document.getElementById("text-en").classList.add("textStroke");
 }
 
+document.getElementById("test").addEventListener("click", () => {
+  window.api.openCombatOverlay("crafts");
+});
+
 registerButtonHandlers({
   cross: advanceText,
   l2: backwardText,

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        margin: 0;
+        background-color: rgb(17, 17, 17);
+        color: white;
+        margin-top: 1.8rem;
+        display: flex;
+      }
+      table {
+        width: 80%;
+        height: 100vh;
+        overflow-y: scroll;
+      }
+      table,
+      td {
+        border: 1px solid #333;
+      }
+      #filters {
+        width: 20%;
+        height: 100vh;
+        overflow-y: scroll;
+        overscroll-behavior: none;
+      }
+      .characterName {
+        text-align: left;
+      }
+    </style>
+    <script>
+      const crafts = window.api.getCrafts();
+      window.addEventListener("DOMContentLoaded", (event) => {
+        const filters = document.getElementById("filters");
+        const tbody = document.querySelector("tbody");
+
+        for (const character in crafts) {
+          renderFilter(character);
+          renderHeader(character);
+          for (const craft of crafts[character]) {
+            const tr = document.createElement("tr");
+            tr.innerHTML = `
+              <td>C</td>
+              <td>${craft.name}</td>
+              <td>${craft.cpCost}</td>
+              <td>${craft.pbu}</td>
+              <td>${craft.aoe}</td>
+              <td>${craft.effects}</td>
+            `;
+            tbody.appendChild(tr);
+          }
+        }
+
+        function renderFilter(character) {
+          const div = document.createElement("div");
+          const input = document.createElement("input");
+          input.type = "radio";
+          input.name = character;
+          div.appendChild(input);
+          const label = document.createElement("label");
+          label.textContent = character;
+          div.appendChild(label);
+          filters.appendChild(div);
+        }
+
+        function renderHeader(character) {
+          const tr = document.createElement("tr");
+          const th = document.createElement("th");
+          th.colSpan = 6;
+          th.classList.add("characterName");
+          th.textContent = character;
+          tr.appendChild(th);
+          tbody.appendChild(tr);
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="filters"></div>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">CRAFT</th>
+          <th scope="col">CP</th>
+          <th scope="col">POWER/BREAK/UNBALANCE</th>
+          <th scope="col">AREA</th>
+          <th scope="col">EFFECTS</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </body>
+</html>
