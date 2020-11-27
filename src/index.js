@@ -5,14 +5,15 @@ import registerKeyHandlers from "./keyboard.js";
 document.getElementById("controls").style.display = "none";
 document.getElementById("updating").style.display = "none";
 
+document.getElementById("combat-overlay").addEventListener("change", (evt) => {
+  window.api.openCombatOverlay(evt.target.value);
+  evt.target.value = "";
+});
+
 if (window.api.getPlatform() === "darwin") {
   document.getElementById("name").classList.add("textStroke");
   document.getElementById("text-en").classList.add("textStroke");
 }
-
-document.getElementById("test").addEventListener("click", () => {
-  window.api.openCombatOverlay("crafts");
-});
 
 registerButtonHandlers({
   cross: advanceText,

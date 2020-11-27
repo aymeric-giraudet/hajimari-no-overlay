@@ -25,6 +25,10 @@ body {
   justify-content: flex-end;
 }
 
+#combat-overlay {
+  margin-right: 0.5rem;
+}
+
 #episode {
   display: none;
 }
@@ -69,6 +73,7 @@ body {
   flex-direction: column;
   padding: 2rem 5rem;
   color: white;
+  -webkit-app-region: drag;
 }
 
 .textStroke {

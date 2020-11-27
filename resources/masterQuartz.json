@@ -1,0 +1,352 @@
+{
+  "EARTH": [
+    {
+      "japanese": "ブレイブ",
+      "english": "Brave",
+      "effects": "(1) Attacks/Crafts restore HP. 5%(Min) to 11%(Max).\n\n(2) Break Damage Up. 30%(Min) to 40%(Max).\n\n(3) CP increase. +3(Min) to +4(Max) per turn. ",
+      "arts": "Lv 5) Needle Shoot\nLv 5) Crest\nLv 6) Earth Glow\nLv 7) Ivy Nail\nLv 8) La Crest\nLv 9) Megalith Fall\nLv 10) Gravion Hammer"
+    },
+    {
+      "japanese": "スクルド",
+      "english": "Skuld",
+      "effects": "(1) Break damage increases by 40%(Min) to 75%(Max) as your\n      remaining HP Increases. \n    \n(2) 1(Min) to 5(Max) turns of 15% HP recovery at the\n      start of battle/at low HP.\n\n(3) Automatic HP recovery. 3%(Min) to 5%(Max)\n      recovery every turn.",
+      "arts": "Lv 5) Needle Shoot\nLv 5) Crest\nLv 6) Earth Glow\nLv 7) La Crest\nLv 8) Megalith Fall\nLv 9) Adamantine Shield \nLv 10) Gravion Hammer"
+    },
+    {
+      "japanese": "イージス",
+      "english": "Aegis",
+      "effects": "(1) Attacks/Crafts have a chance to inflict charm. \n      86%(Min) to 100%(Max).\n\n(2) 18%(Min) to 24%(Max) chance to evade magic attacks.\n\n(3) Reflect attacks 1(Min) to 3(Max) times at the start of\n      battle/at low HP. ",
+      "arts": "Lv 5) Needle Shoot\nLv 5) Crest\nLv 6) Earth Glow\nLv 7) La Crest\nLv 8) Megalith Fall\nLv 9) Adamantine Shield\nLv 10) Gravion Hammer"
+    },
+    {
+      "japanese": "ゴーズ",
+      "english": "Minotauros",
+      "effects": "(1) Increased damage of attacks/crafts at the cost of Delay. \n      Damage dealt+ 50%(Min) to 100%(Max).\n      Delay increased by 2x(Min) to 1.5x(Max).\n \n(2) Break Damage Up. 30%(Min) to 50%(Max).\n\n(3) Critical up 3%(Min) to 7%(Max).",
+      "arts": "Lv 5) Needle Shoot\nLv 5) Crest\nLv 6) Earth Glow\nLv 7) Ivy Nail\nLv 8) La Crest\nLv 9) Megalith Fall"
+    },
+    {
+      "japanese": "タリスマン",
+      "english": "Talisman",
+      "effects": "(1) Chance to prevent Status Effects. \n      90(Min) to 100%(Max).\n\n(2) All stats up at low hp. 2(Min) to 5(Max) Turns. \n      Increase is S (Min) to L (Max).\n\n(3) 5(Min) to 10(Max) EP recovery every turn.",
+      "arts": "Lv 5) Needle Shoot\nLv 5) Crest\nLv 6) Earth Glow\nLv 7) Ivy Nail\nLv 8) Megalith Fall\nLv 9) Gravion Hammer\nLv 10) Adamantine Shield"
+    },
+    {
+      "japanese": "インフィニティ",
+      "english": "Infinity",
+      "effects": "(1) Increases potency of healing items. \n      1.5%(Min) to 2.5%(Max)\n\n(2) Automatic CP recovery every turn. 3(Min) to 6(Max).\n\n(3) Range of recovery item effects increased. \n      Circle Radius, M/M+.",
+      "arts": "Lv 5) Needle Shoot\nLv 5) Crest\nLv 6) Earth Glow\nLv 7) La Crest\nLv 8) Megalith Fall\nLv 9) Adamantine Shield\nLv 10) Gravion Hammer"
+    },
+    {
+      "japanese": "ジオ・ソフィア",
+      "english": "Geo Sophia",
+      "effects": "(1) Automatically Recover from K.O. once per battle \n      with increasing values of HP/CP.\n\n(2) 15% HP Recovery for 1(Min) to 3(Max) turns at the start\n      of battle/at low hp.\n\n(3) After casting Earth Arts, \n      delay is reduced by 33%(Min) to 66%(Max).",
+      "arts": "Lv 5) Needle Shoot\nLv 5) Crest\nLv 6) Earth Glow\nLv 7) Ivy Nail\nLv 8) Megalith Fall\nLv 9) Adamantine Shield\nLv 10) Gravion Hammer"
+    },
+    {
+      "japanese": "アンドヴァリ",
+      "english": "Andvari",
+      "effects": "(1 )Reduced Damage taken 34%(starts) through 50%.(max) \n      This effect is triggered by being hit.\n      Scales up as you take damage.\n\n(2) Raises DEF/ADF when battle begins or when HP is low \n      for 3(Min) to 5(Max) turns.\n      Buff is S (Min) to L (Max), scales with level.\n\n(3) Automatic HP recovery. 3%(Min) to 5(Max)% per turn.",
+      "arts": "Lv 7) Crest\nLv 7) La Crest\nLv 7) Adamantine Shield\nLv 7) Crescent Mirror\nLv 7) Gravion Hammer"
+    }
+  ],
+  "WATER": [
+    {
+      "japanese": "カノン",
+      "english": "Canon",
+      "effects": "(1) Increased effect of HP recovery arts. \n      2.75%(Min) to 4.25%(Max).\n \n(2) Automatic EP recovery every turn. 10(Min) to 20(Max).\n\n(3) Range of arts increased by 3(Min) to 5(Max).",
+      "arts": "Lv 5) Aqua Bleed\nLv 5) Tear\nLv 6) Crystal Edge\nLv 6) Thelas\nLv 7) Blue Ascension\nLv 8) Teara\nLv 9) Diamond Nova\nLv 10) Athelas"
+    },
+    {
+      "japanese": "ヴァルゴ",
+      "english": "Virgo",
+      "effects": "(1) Offensive Arts deal Critical Damage. \n      45%(Min) to 80%(Max) chance.\n\n(2) Recover HP Through offensive arts. 5%(Min) to 9%(Max).\n\n(3) After casting Water Arts, delay is reduced \n      by 33%(Min) to 60%(Max).",
+      "arts": "Lv 5) Aqua Bleed\nLv 5) Thelas\nLv 6) Crystal Edge\nLv 7) Blue Ascension\nLv 8) Athelas\nLv 9) Diamond Nova\nLv 10) Tearal"
+    },
+    {
+      "japanese": "マギウス",
+      "english": "Magius",
+      "effects": "(1) Magic damage increases as your remaining HP decreases. \n      Damage increased by 100 (Min) to 175 (Max)%\n\n(2) Attack Arts Critical Rate up. 40(Min) to 60(Max)%.\n\n(3) Automatically Recover from K.O. \n      +120(Max) CP upon revival.",
+      "arts": "Lv 5) Aqua Bleed\nLv 5) Curia\nLv 6) Crystal Edge\nLv 7) Teara\nLv 8) Blue Ascension\nLv 9) Athelas\nLv 10) Diamond Nova"
+    },
+    {
+      "japanese": "ブルーレオ\t",
+      "english": "Blue Leo",
+      "effects": "(1) Increase the amount of CP obtained when\n      receiving damage. 3.25%(Min) to 5%(Max).\n\n(2) Increase Critical Rate by 6%(Min) to 10%(Max).\n\n(3) Decrease the delay after using S crafts\n      by 33%(Min) to 60%(Max).",
+      "arts": "Lv 5) Aqua Bleed\nLv 5) Tear\nLv 6) Crystal Edge\nLv 7) Thelas\nLv 8) Blue Ascension\nLv 9) Athelas\nLv 10) Diamond Nova"
+    },
+    {
+      "japanese": "エリクシル\t",
+      "english": "Elixir",
+      "effects": "(1) Attacks/Crafts gather Sepith. \n      75%(Min) to 100%(Max) chance.\n\n(2) All stats up at low hp. 2(Min) to 5(Max)Turns.\n      Increase is S (Min) to L (Max).\n\n(3) Obtain sepith from offensive arts. \n      75%(Min) to 100%(Max) chance.\n",
+      "arts": "Lv 5) Aqua Bleed\nLv 5) Teara\nLv 6) Crystal Edge\nLv 7) Athelas\nLv 8) Blue Ascension\nLv 9) Tearal\nLv 10) Diamond Nova\n"
+    },
+    {
+      "japanese": "ケットシー",
+      "english": "Ket Sea",
+      "effects": "(1) Absorb Magic attacks. 26%(Min) to 40%(Max) chance.\n\n(2) Attack arts Critical Rate up. \n      40%(Min) to 50%(Max) chance.\n\n(3) EP recovery with attack arts \n      .1/.2% recovery of damage done.",
+      "arts": "Lv 5) Aqua Bleed\nLv 5) Curia\nLv 7) Crystal Edge\nLv 7) Teara\nLv 8) Blue Ascension\nLv 9) Athelas\nLv 10) Diamond Nova"
+    },
+    {
+      "japanese": "アークディーバ",
+      "english": "Ark Diva",
+      "effects": "(1) Avoid magic attacks. 26%(Min) to 40%(Max) chance.\n\n(2) CP increase with attack arts. 9(Min) to 21(Max) per hit.\n\n(3) Attack arts Critical Rate up. 30%(Min) to 40%(Max).",
+      "arts": "Lv 5) Aqua Bleed\nLv 5) Teara\nLv 6) Crystal Edge\nLv 7) Athelas\nLv 8) Blue Ascension\nLv 9) Tearal"
+    },
+    {
+      "japanese": "メルクリウス",
+      "english": "Mercurius",
+      "effects": "(1) Increases damage with Arts when enemy is weak \n      to that element. Additional 35%(Min) to 60%(Max) \n      increase to enemy weakness.\n\n(2) Attack arts Critical Rate up. \n      40%(Min) to 60%(Max) chance.\n\n(3) Automatic EP recovery. 5(Min) to 15(Max) per Turn.",
+      "arts": "Lv 7) Aqua Bleed\nLv 7) Needle Shoot\nLv 7) Firebolt\nLv 7) Air Strike\nLv 7) Soul Blur\nLv 7) Golden Sphere\nLv 7) Silver Thorn\nLv 10) Diamond Nova\n"
+    }
+  ],
+  "FIRE": [
+    {
+      "japanese": "カグツチ",
+      "english": "Brigid",
+      "effects": "(1) Killing enemies restores CP. 10(Min) to 24(Max).\n\n(2) Automatically increase CP every turn. 3(Min) to 7(Max).\n\n(3) Restores 100(Min) to 200(Max) CP when HP is low. \n      1(Min) to 3(Max) times per battle.",
+      "arts": "Lv 5) Firebolt\nLv 5) Forte\nLv 6) Impassion\nLv 7) Venom Flame\nLv 8) La Forte\nLv 9) Flare Butterfly\nLv 10) Zeruel Cannon"
+    },
+    {
+      "japanese": "レグルス",
+      "english": "Regulus",
+      "effects": "(1) Increases CP gained when you take damage. \n      3.25%(Min) to 5%(Max) Increase.\n\n(2) Raises STR when battle begins or when HP is low \n      for 2(Min) to 7(Max) turns.\n      Buff is S (Min) to L (Max), scales with level.\n\n(3) Reduced delay after using an S-Craft. \n      33%(Min) to 60%(Max).\n",
+      "arts": "Lv 5) Firebolt\nLv 5) Forte\nLv 6) Heat Up\nLv 7) Venom Flame\nLv 8) Flare Butterfly\nLv 9) La Forte\nLv 10) Zeruel Cannon"
+    },
+    {
+      "japanese": "ベオウルフ",
+      "english": "Beowulf",
+      "effects": "(1) Attack Arts restore CP. 16(Min) to 30(Max).\n      \n(2) All stats up at battle start. 1(Min) to 3(Max) Turns.\n      Buff is S (Min) to L (Max), scales with level.\n\n(3) Restores 100(Min) to 200(Max) CP when HP is low. \n      1(Min) to 3(Max) times per battle.",
+      "arts": "Lv 5) Firebolt\nLv 5) Forte\nLv 6) Impassion\nLv 7) Venom Flame\nLv 8) Flare Butterfly\nLv 9) La Forte\nLv 10) Zeruel Cannon"
+    },
+    {
+      "japanese": "シュバリエ",
+      "english": "Chevalier",
+      "effects": "(1) Physical damage increases as your hp decreases.\n      100%(Min) to 175%(Max).\n\n(2) Increase Critical Rate by 5%(Min) to 10%(Max).\n\n(3) Automatically Recover from K.O. \n      +90(Min) to 120(Max) CP upon revival.",
+      "arts": "Lv 5) Firebolt\nLv 5) Heat Up\nLv 6) Impassion\nLv 7) Venom Flame\nLv 9) La Forte\nLv 9) Flare Butterfly\nLv 10) Zeruel Canon"
+    },
+    {
+      "japanese": "ヴェガ",
+      "english": "Vega",
+      "effects": "(1) Attack arts Critical Rate up. \n      45%(Min) to 75%(Max) chance.\n\n(2) Attack arts inflict random status effect. \n      60%(Min) to 80%(Max) chance.\n\n(3) After casting Fire Arts, delay is reduced \n      by 33%(Min) to 60%(Max).",
+      "arts": "Lv 5) Firebolt\nLv 5) Forte\nLv 6) Venom Flame\nLv 7) Flare Butterfly\nLv 8) Heat Up\nLv 9) Zeruel Cannon\nLv 10) Impassion"
+    },
+    {
+      "japanese": "モルガン",
+      "english": "Morgan",
+      "effects": "(1) Magical damage increases as your hp decreases.\n      100%(Min) to 175%(Max).\n\n(2) ATS/ADF Up at the start of battle/when hp is low \n      for 3(Min) to 7(Max) turns.\n      Buff is S (Min) to L (Max), scales with level.\n      \n(3) Survive with 1% HP and Restore 90(Min) to 120(Max) CP. ",
+      "arts": "Lv 5) Firebolt\nLv 5) Forte\nLv 6) Venom Flame\nLv 7) Flare Butterfly\nLv 8) La Forte\nLv 8) Heat Up\nLv 9) Zeruel Cannon\nLv 10) Impassion"
+    },
+    {
+      "japanese": "レギンレイブ",
+      "english": "Leginrave",
+      "effects": "(1) Assault Gauge increases 2/3% per second in the field.\n\n(2) Increases assault points gained when damaged. \n      Increases Equipment drop rates. 1.5%(Min) to 3%(Max) \n      chance of a drop.\n\n(3) Automatically increase CP every turn. \n      3(Min) to 7(Max).",
+      "arts": "Lv 7) Forte\nLv 7) La Forte\nLv 7) Impassion\nLv 7) Earth Pulse\nLv 7) Zeruel Cannon"
+    },
+    {
+      "japanese": "バロール",
+      "english": "Balor",
+      "effects": "(1) Critical Rate increases the more HP you have left. 17% (Min) to 22% (Max)\n\n(2) Restores 5% (Min) to 9% (Max) HP every turn.\n\n(3) Automatically revive before K.O with 50% (Min) to 100% (Max) HP, 100 (Min) to 200 (Max) CP, once per battle.",
+      "arts": "Lv 7) Firebolt\nLv 7) Forte\nLv 7) Venom Flame\nLv 7) Flare Butterfly\nLv 8) La Forte\nLv 8) Heat Up\nLv 9) Zeruel Cannon\nLv 10) Impassion"
+    }
+  ],
+  "WIND": [
+    {
+      "japanese": "シリウス",
+      "english": "Sirius",
+      "effects": "(1) Counterattack Damage Increased. \n      125%(Min) to 300%(Max).\n\n(2) Evasion up. 6%(Min) to 10%(Max).\n\n(3) Grants Insight at start of battle/at low hp for \n      up to 3(Max) turns.",
+      "arts": "Lv 5) Air Strike\nLv 5) Breath\nLv 6) Nemesis Arrow\nLv 7) Recuria\nLv 8) Aerial Dust\nLv 9) Holy Breath\nLv 10) Ixion Volt"
+    },
+    {
+      "japanese": "テンペスト",
+      "english": "Tempest",
+      "effects": "(1) Critical Rate up as your hp decreases. \n      50%(Min) to 65%(Max).\n\n(2) Grants Insight at start of battle/at low hp \n      for up to 5(Max) turns.\n\n(3) Evasion up. 1%(Min) to 7%(Max)",
+      "arts": "Lv 5) Air Strike\nLv 5) Nemesis Arrow\nLv 6) Breath\nLv 7) Aerial Dust\nLv 8) Recuria\nLv 9) Ixion Volt\nLv 10) Holy Breath"
+    },
+    {
+      "japanese": "トール",
+      "english": "Thor",
+      "effects": "(1) Increases damage to enemies with status effects\n      35%(Min) to 70%(Max).\n\n(2) Attacks/Crafts inflict seal. \n      20%(Min) to 40%(Max) chance.\n\n(3) Break damage increased by 20%(MIn) to 30%(Max).",
+      "arts": "Lv 5) Air Strike\nLv 5) Breath\nLv 6) Nemesis Arrow\nLv 7) Recuria\nLv 8) Aerial Dust\nLv 9) Holy Breath\nLv 10) Ixion Volt"
+    },
+    {
+      "japanese": "エル・カノン",
+      "english": "El Canon",
+      "effects": "(1) Increases effect of HP recovery arts. \n      2.75x(Min) to 4.25x(Max).\n\n(2) Attack Arts restore EP up to .5%(Max) of damage dealt.\n\n(3) After casting Wind Arts, delay is reduced \n      by 33%(Min) to 60%(Max).",
+      "arts": "Lv 5) Air Strike\nLv 5) Breath\nLv 6) Nemesis Arrow\nLv 7) Recuria\nLv 8) Holy Breath\nLv 9) Aerial Dust\nLv 10) Ixion Volt"
+    },
+    {
+      "japanese": "クサナギ",
+      "english": "Kusanagi",
+      "effects": "(1) Increases Critical Damage by 75%(Min) to 120%(Max)\n      \n(2) Increases Critical Rate by 6%(Min) to 10%(Max)\n\n(3) Evasion up. 3%(Min) to 7%(Max)",
+      "arts": "Lv 5) Air Strike\nLv 5) Breath\nLv 6) Nemesis Arrow\nLv 7) Recuria\nLv 8) Aerial Dust\nLv 9) Holy Breath\nLv 10) Ixion Volt"
+    },
+    {
+      "japanese": "ケルビム",
+      "english": "Cherubim",
+      "effects": "(1) Attacks/Crafts restore EP. 1.1%(Max) of damage dealt.\n\n(2) Attack Arts restore CP. 9(Min) to 21(Max) per hit.\n\n(3) Increases Critical Rate by 3%(Min) to 7%(Max)",
+      "arts": "Lv 5) Air Strike\nLv 5) Nemesis Arrow\nLv 6) Breath\nLv 7) Aerial Dust\nLv 8) Recuria\nLv 9) Ixion Volt\nLv 10) Holy Breath"
+    },
+    {
+      "japanese": "タケミカヅチ",
+      "english": "Takemikazuchi",
+      "effects": "(1) Evading an attack increases damage by \n      40%(Min) to 75%(Max), stacking five times.\n\n(2) Break damage increased by 30%(Min) to 50%(Max).\n\n(3) Evasion up. 3%(Min) to 7%(Max).",
+      "arts": "Lv 5) Recuria\nLv 6) Heat Up\nLv 7) Nemesis Arrow\nLv 8) Ixion Volt"
+    },
+    {
+      "japanese": "ピクシィ",
+      "english": "Pixie",
+      "effects": "(1) Attacks Arts restore EP. .5%(Max) of damage dealt.\n\n(2) Attack Arts inflict random stat down. \n      80%(Min) to 120%(Max) chance.\n\n(3) After casting Wind Arts, delay is reduced by 33%(Min) to\n      60%(Max).",
+      "arts": "Lv 5) Air Strike\nLv 5) Breath\nLv 6) Nemesis Arrow\nLv 7) Recuria\nLv 8) Aerial Dust\nLv 9) Holy Breath\nLv 10) Ixion Volt"
+    }
+  ],
+  "TIME": [
+    {
+      "japanese": "ディーヴァ",
+      "english": "Deva",
+      "effects": "(1) Evade magic attacks. 26%(Min) to 40%(Max) chance.\n\n(2) Attack Arts restore CP. 9(Min) to 21(Max) per hit.\n\n(2) Break Damage Up. 30%(Min) to 40%(Max).\n",
+      "arts": "Lv 5) Soul Blur\nLv 6) Chrono Drive\nLv 7) Calvary Edge\nLv 8) Chrono Break\nLv 9) Lost Genesis\nLv 10) Chrono Burst"
+    },
+    {
+      "japanese": "ゼファー",
+      "english": "Zephyr",
+      "effects": "(1) Attacks/crafts cause stat down. 85%(Min) to 135%(Max) \n     chance.\n    \n(2) Raises SPD when battle begins or when HP is low \n      for 2(Min) to 7(Max) turns.\n      Buff is S (Min) to L (Max), scales with level.\n\n(3) Delay +2(Min) to +4(Max) on Attacks/Crafts.",
+      "arts": "Lv 5) Soul Blur\nLv 6) Chrono Drive\nLv 7) Chrono Break\nLv 8) Callvary Edge\nLv 9) Chrono Burst\nLv 10) Lost Genesis"
+    },
+    {
+      "japanese": "カッツェ",
+      "english": "Katze",
+      "effects": "(1) Absorb magic attacks. 26%(Min) to 40%(Max) chance\n\n(2) Attack arts Critical Rate up. \n      45%(Min) to 60%(Max) chance.\n\n(3) After casting Time Arts, delay is reduced by 33%(Min) to \n      60%(Max).",
+      "arts": "Lv 5) Soul Blur\nLv 6) Chrono Drive\nLv 7) Calvary Edge\nLv 8) Chrono Break\nLv 9) Lost Genesis\nLv 10) Chrono Burst"
+    },
+    {
+      "japanese": "グングニル",
+      "english": "Gungnir",
+      "effects": "(1) Increases Critical Damage by \n      75%(Min) to 120%(Max) chance.\n\n(2) Increases Critical Rate by 5%(Min) to 10%(Max).\n\n(3) Attack arts Critical Rate up. 30%(Min) to 40%(Max).",
+      "arts": "Lv 5) Soul Blur\nLv 6) Chrono Drive\nLv 7) Calvary Edge\nLv 8) Chrono Break\nLv 9) Lost Genesis\nLv 10) Chrono Burst"
+    },
+    {
+      "japanese": "ヴォータン",
+      "english": "Wotan",
+      "effects": "(1) Critical rate increases by 15%(Min) to 25%(Max) as your \n      remaining HP Increases.\n      \n(2) Automatic HP Recovery. 5%(Min) to 9%(Max) every turn.\n\n(3) Automatically increase CP every turn. 3(Min) to 5(Max).",
+      "arts": "Lv 5) Soul Blur\nLv 6) Chrono Drive\nLv 7) Calvary Edge\nLv 8) Chrono Break\nLv 9) Lost Genesis\n"
+    },
+    {
+      "japanese": "オボロ",
+      "english": "Gloom",
+      "effects": "(1) Attacks/Crafts randomly apply status effects. \n      36%(Min) to 48%(Max) chance.\n\n(2) Attack Arts randomly apply status effects. \n      55%(Min) to 75%(Max) chance.\n\n(3) Stealth for up to 3(Max) turns at the start of battle.",
+      "arts": "Lv 5) Soul Blur\nLv 6) Chrono Drive\nLv 7) Calvary Edge\nLv 8) Chrono Break\nLv 9) Lost Genesis\nLv 10) Chrono Burst"
+    },
+    {
+      "japanese": "スバル",
+      "english": "Subaru",
+      "effects": "(1) Counterattack Damage Increased.\n      125%(Min) to 300%(Max)\n\n(2) Raises SPD when battle begins or when HP is low \n      for 3(Min) to 7(Max) turns.\n      Buff is S (Min) to L (Max), scales with level.\n\n(3) Evasion up. 3%(Min) to 7%(Max).",
+      "arts": "Lv 5) Soul Blur\nLv 6) Chrono Drive\nLv 7) Chrono Break\nLv 8) Calvary Edge\nLv 9) Chrono Burst\nLv 10) Lost Genesis"
+    },
+    {
+      "japanese": "アルタイル",
+      "english": "Altair",
+      "effects": "(1) Break damage increases by 40%(Min) \n      to 75%(Max) as your remaining HP Increases. \n\n(2) Raises SPD when battle begins or when HP is low \n      for 3(Min) to 7(Max) turns.\n      Buff is S (Min) to L (Max), scales with level.\n\n(3) Automatic HP Recovery. 3%(Min) to 5%(Max) per turn",
+      "arts": "Lv 5) Soul Blur\nLv 6) Chrono Drive\nLv 7) Chrono Break\nLv 8) Calvary Edge\nLv 9) Chrono Burst\nLv 10) Lost Genesis"
+    }
+  ],
+  "SPACE": [
+    {
+      "japanese": "メビウス",
+      "english": "Moebius",
+      "effects": "(1) Increases potency of healing items. \n      1.5% (Min) to 2.5% (Max)\n\n(2) Increased the range of healing items by 2(Min) to 8(Max).\n\n(3) Healing items affect a wider area. Circle (M/M+)",
+      "arts": "Lv 5) Golden Sphere\nLv 6) Shining\nLv 7) Fortuna\nLv 8) Cross Crusade\nLv 9) Seraphim Ring\nLv 10) Seventh Caliber"
+    },
+    {
+      "japanese": "ソフィア",
+      "english": "Sophia",
+      "effects": "(1) Automatically Recover from K.O. HP/CP \n      restore scales with level.\n\n(2) Raises DEF/ADF when battle begins or when HP is low \n      for 2(Min) to 6(Max) turns.\n      Buff is S (Min) to L (Max), scales with level.\n\n(3) After casting Space Arts, delay is reduced \n      by 33%(Min) to 60%(Max).",
+      "arts": "Lv 5) Golden Sphere\nLv 6) Shining\nLv 7) Fortuna\nLv 8) Cross Crusade\nLv 9) Seraphim Ring\nLv 10) Seventh Caliber"
+    },
+    {
+      "japanese": "デュナミス",
+      "english": "Dunamis",
+      "effects": "(1) Attacks/Crafts restore EP. 1.1%(Max) of damage dealt.\n\n(2) Raises DEF/ADF when battle begins or when HP is low \n      for 2(Min) to 5(Max) turns.\n      Buff is S (Min) to L (Max), scales with level.\n\n(3) Attack arts Critical Rate up. 30%(Min) to 40%(Max).",
+      "arts": "Lv 5) Golden Sphere\nLv 6) Fortuna\nLv 7) Cross Crusade\nLv 8) Shining\nLv 9) Seventh Caliber\nLv 10) Seraphim Ring"
+    },
+    {
+      "japanese": "エンブレム",
+      "english": "Emblem",
+      "effects": "(1) HP / EP / CP regenerates in the field. \n      1%(Min) to 3%(Max).\n\n(2) All stats up at battle start. 2(Min) to 5(Max)Turns.\n      Increase is S (Min) to L (Max).\n\n(3) Increase dropped items (Only when user kills enemy). \n      Multiply number of items dropped by up to 3%.",
+      "arts": "Lv 5) Golden Sphere\nLv 6) Fortuna\nLv 7) Shining\nLv 8) Cross Crusade\nLv 9) Seventh Caliber\nLv 10) Seraphim Ring"
+    },
+    {
+      "japanese": "ヴァルハラ",
+      "english": "Valhalla",
+      "effects": "(1) Physical Damage increases the more health you have.\n      25%(Min) to 60%(Max).\n\n(2) Killing enemies restores hp. 14%(Min) to 24%(Max).\n\n(3) Evasion up. 3%(Min) to 7%(Max).",
+      "arts": "Lv 5) Golden Sphere\nLv 6) Fortuna\nLv 7) Shining\nLv 8) Cross Crusade\n"
+    },
+    {
+      "japanese": "カリバーン",
+      "english": "Caliber",
+      "effects": "(1) Attack Arts restore CP. 16(Min) to 30(Max) per hit.\n\n(2) Raises STR/ATS when battle begins or when HP is low \n      for 3(Min) to 6(Max) turns.\n      Buff is S (Min) to L (Max), scales with level.\n\n(3) CP restored at low health. 100%(Min) to \n      200%(Max) restored up to 2 times per battle.",
+      "arts": "Lv 5) Golden Sphere\nLv 6) Fortuna\nLv 7) Shining\nLv 8) Cross Crusade\nLv 9) Seventh Caliber\nLv 10) Seraphim Ring"
+    },
+    {
+      "japanese": "ソレイユ",
+      "english": "Soleil",
+      "effects": "(1) Killing enemies restores CP. 10(Min) to 24(Max).\n\n(2) Automatically increase CP every turn. 3(Min) to 7(Max).\n\n(3) Automatic HP recovery. 3%(Min) to 5%(Max)\n      recovery every turn.",
+      "arts": "Lv 5) Golden Sphere\nLv 6) Fortuna\nLv 7) Cross Crusade\nLv 8) Shining\nLv 9) Seventh Caliber\nLv 10) Seraphim Ring"
+    },
+    {
+      "japanese": "ミストラル",
+      "english": "Mistral",
+      "effects": "(1) Attacks/crafts cause stat down. 85%(Min) to 150%(Max) \n      chance.\n\n(2) Raises SPD when battle begins or when HP is low \n      for 3(Min) to 7(Max) turns.\n      Buff is M (Min) to L (Max), scales with level.\n\n(3) Increases Critical Rate by 3%(Min) to 7%(Max).",
+      "arts": "Lv 5) Golden Sphere\nLv 6) Fortuna\nLv 7) Shining\nLv 8) Cross Crusade\nLv 9) Seventh Caliber\nLv 10) Seraphim Ring"
+    }
+  ],
+  "MIRAGE": [
+    {
+      "japanese": "ティタニア",
+      "english": "Titania",
+      "effects": "(1) Attack Arts restore EP up to .5%(Max) of damage dealt.\n\n(2) Raises STR/ATS when battle begins or when HP is low \n      for 3(Min) to 7(Max) turns.\n      Buff is S (Min) to L (Max), scales with level.\n\n(3) After casting Mirage Arts, delay is reduced by \n      33%(Min) to 60%(Max).",
+      "arts": "Lv 5) Silver Thorn\nLv 5) Analyze \nLv 7) Galion Fort\nLv 8) Saintly Force\nLv 9) Albion Wolf\nLv 10) Crescent Mirror"
+    },
+    {
+      "japanese": "スコルピオ",
+      "english": "Scorpio",
+      "effects": "(1) Increases damage to a broken enemy. \n      60%(Min) to 100%(Max).\n\n(2) Increases Break damage relative to lower HP. \n      90%(Min) to 150%(Max).\n\n(3) Attacks/Crafts inflict Nightmare. \n      10%(Min) to 20(Max)%.",
+      "arts": "Lv 5) Silver Thorn\nLv 5) Analyze\nLv 6) Saintly Force\nLv 7) Galion Fort\nLv 9) Albion Wolf\nLv 10) Crescent Mirror"
+    },
+    {
+      "japanese": "パンドラ",
+      "english": "Pandora",
+      "effects": "(1) Offensive arts do more damage, but consume more EP.\n      75%(Min) to 120(Max)% for 1.5x EP.\n\n(2) Attack arts Critical Rate up. 40%(Min) to 60%(Max).\n\n(3) Range of arts is increased by up to 5(Max).",
+      "arts": "Lv 5) Silver Thorn\nLv 5) Analyze\nLv 6) Saintly Force\nLv 7) Galion Fort\nLv 9) Albion Wolf\nLv 10) Crescent Mirror"
+    },
+    {
+      "japanese": "エルダ",
+      "english": "Elda",
+      "effects": "(1) Physical damage increases as your hp increases.\n      20%(Min) to 65%(Max).\n\n(2) Automatic EP Recovery. 10(Min) to 30(Max) per turn.\n\n(3) Automatically increase CP every turn. 3(Min) to 5(Max).",
+      "arts": "Lv 5) Silver Thorn\nLv 5) Analyze\nLv 6) Saintly Force\nLv 7) Galion Fort\nLv 8) Crescent Mirror\nLv 9) Albion Wolf"
+    },
+    {
+      "japanese": "キーパー",
+      "english": "Keeper",
+      "effects": "(1) Damage taken is reduced the less HP you have.\n      10%(Min) to 25%(Max). Scales with level.\n\n(2) Break Damage Up. 30%(Min) to 50%(Max).\n\n(3) CP restores at low HP. 100(Min) to 200(Max), \n      2(Max) times per battle.",
+      "arts": "Lv 5) Silver Thorn\nLv 5) Analyze\nLv 6) Saintly Force\nLv 7) Galion Fort\nLv 9) Crescent Mirror \nLv 10) Albion Wolf"
+    },
+    {
+      "japanese": "カレイド",
+      "english": "Kaleido",
+      "effects": "(1) Attacks/Crafts gather Sepith, \n      75%(Min) to 100%(Max) chance.\n\n(2) Experience gain increased by up to 2%(Max).\n\n(3) Offensive Arts gather Sepith, \n      75%(Min) to 100%(Max) chance.",
+      "arts": "Lv 5) Silver Thorn\nLv 5) Analyze\nLv 6) Saintly Force\nLv 8) Galion Fort\nLv 9) Albion Wolf\nLv 10) Crescent Mirror"
+    },
+    {
+      "japanese": "ムラクモ",
+      "english": "Murakumo",
+      "effects": "(1) Attacks/Crafts inflict random status effects.\n      36%(Min) to 50%(Max) chance.\n\n(2) Evasion Up. 6%(Max) to 10%(Max)\n\n(3) Stealth for up to 2 turns at the start of battle.",
+      "arts": "Lv 5) Silver Thorn\nLv 5) Analyze\nLv 6) Saintly Force\nLv 7) Galion Fort\nLv 9) Albion Wolf\nLv 10) Crescent Mirror"
+    },
+    {
+      "japanese": "ヤルダバオト",
+      "english": "Yaldabaoth",
+      "effects": "(1) Increase damage every time it's your turn,\n      stacking up to 5 times.\n      15%(Min) to 50%(Max) per stack.\n\n(2) All stats up at battle start. 2(Min) to 5(Max)Turns.\n      Increase is S (Min) to L (Max).\n\n(3) Attacks/Crafts can inflict Deathblow.\n      5%(Min) to 7%(Max) chance.",
+      "arts": "Lv 5) Saintly Force\nLv 6) Lost Genesis\nLv 7) Seventh Caliber\nLv 8) Albion Wolf"
+    }
+  ]
+}

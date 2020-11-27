@@ -1,0 +1,1245 @@
+{
+  "EARTH": [
+    {
+      "japanese": "ニードルショット",
+      "english": "Needle Shoot\n",
+      "stats": "Attack (Power C +): Single        \n"
+    },
+    {
+      "japanese": "アイヴィネイル",
+      "english": "Ivy Nail\n",
+      "stats": "Attack (Power D +): Circle (M)\n",
+      "notes": "Poison / Petrify 50%\n"
+    },
+    {
+      "japanese": "メガリスフォール",
+      "english": "Megalith Fall",
+      "stats": "Attack (Power A +): Circle (M)\n",
+      "notes": "4 Turns DEF Down (M) (100%)\n"
+    },
+    {
+      "japanese": "グラヴィオン・ハンマー",
+      "english": "Gravion Hammer",
+      "stats": "Attack (Power SS): All\n",
+      "notes": "4 Turns MOV/SPD Down (L) (100%)\n"
+    },
+    {
+      "japanese": "クレスト",
+      "english": "Crest",
+      "stats": "Support: Circle (M)",
+      "notes": "DEF Up (S)\n"
+    },
+    {
+      "japanese": "ラ・クレスト",
+      "english": "La Crest",
+      "stats": "Support: Circle (LL)",
+      "notes": "DEF Up (M)\n"
+    },
+    {
+      "japanese": "アースグロウ",
+      "english": "Earth Pulse",
+      "stats": "Support: Single",
+      "notes": "HP Recovery 25%\n"
+    },
+    {
+      "japanese": "アダマスシールド",
+      "english": "Adamantine Shield",
+      "stats": "Support: Circle (M)",
+      "notes": "Perfect Guard\n"
+    },
+    {
+      "japanese": "防御",
+      "english": "Defense 1/2/3",
+      "stats": "Increases Def by rarity. 50/100/200"
+    },
+    {
+      "japanese": "破壊",
+      "english": "Destruction 1/2/3",
+      "stats": "Increases Str by Rarity. 15/30/60",
+      "notes": "Break Damage - 20/40/60%. Scales by Rarity"
+    },
+    {
+      "japanese": "毒の刃",
+      "english": "Poison 1/2/3/4",
+      "stats": "Increases Str by Rarity. 15/30/60/120",
+      "notes": "Chance to Poison on Attack/Craft - 10/15/20/30% - Scales by Rarity"
+    },
+    {
+      "japanese": "石化の刃",
+      "english": "Petrify 1/2/3/4",
+      "stats": "Increases Str by Rarity. 15/30/60/120",
+      "notes": "Chance to Petrify on Attack/Craft - 10/15/20/23% - Scales by Rarity"
+    },
+    {
+      "japanese": "破盾の牙",
+      "english": "Shield Breaker 1/2/3/4",
+      "stats": "Increases Str by Rarity. 15/30/60/120",
+      "notes": "Chance to inflict DEF down on Attack/Craft - 20/25/30/40% - Scales by Rarity"
+    },
+    {
+      "japanese": "金剛盾",
+      "english": "Impenetrable Shield",
+      "stats": "HP+3000/DEF+120/ADF+120/ATS+60",
+      "arts": "La Crest, Earth Pulse, Adamantine Shield"
+    },
+    {
+      "japanese": "真・金剛盾",
+      "english": "True Impenetrable Shield",
+      "stats": "HP+6000/DEF+240/ADF+240/ATS+120",
+      "arts": "La Crest, Earth Pulse, Adamantine Shield"
+    },
+    {
+      "japanese": "地言鈴",
+      "english": "Earth Bell",
+      "stats": "ATS+40",
+      "notes": "Delay after casting Earth arts is halved"
+    },
+    {
+      "japanese": "鋼星鈴",
+      "english": "Steel Bell",
+      "stats": "ATS+80",
+      "notes": "Increases damage of Earth arts by 30%\nDelay after casting Earth arts is halved",
+      "arts": "Megalith Fall"
+    },
+    {
+      "japanese": "真・鋼星鈴",
+      "english": "True Steel Bell",
+      "stats": "ATS+160",
+      "notes": "Increases damage of Earth arts by 40%\nDelay after casting Earth arts is halved",
+      "arts": "Megalith Fall"
+    },
+    {
+      "japanese": "玄武刃",
+      "english": "Genbu",
+      "stats": "STR+80",
+      "notes": "Chance to Poison and Petrify on Attack/Craft - 25%"
+    },
+    {
+      "japanese": "真・玄武刃",
+      "english": "True Genbu",
+      "stats": "STR+160",
+      "notes": "Chance to Poison and Petrify on Attack/Craft - 30%"
+    },
+    {
+      "japanese": "耀脈",
+      "english": "Septium Vein",
+      "stats": "EP+50/STR+25/ATS+25",
+      "notes": "Increase in dropped Sepith of defeated enemies."
+    },
+    {
+      "japanese": "羅漢珠",
+      "english": "Rakan Gem",
+      "stats": "EP+100/STR+50/ATS+50",
+      "notes": "Break damage+80%, increase in dropped Sepith of defeated enemies."
+    },
+    {
+      "japanese": "羅漢煌珠",
+      "english": "Shining Rakan Gem",
+      "stats": "EP+200/STR+100/ATS+100",
+      "notes": "Break damage+100%, increase in dropped Sepith of defeated enemies."
+    },
+    {
+      "japanese": "龍脈",
+      "english": "Dragon Vein",
+      "stats": "HP+1000/DEF+100",
+      "notes": "Increases assault points gradually in the field."
+    },
+    {
+      "japanese": "不動珠",
+      "english": "Acala Gem",
+      "stats": "HP+2000/DEF+200",
+      "notes": "Increases assault points gradually in the field."
+    },
+    {
+      "japanese": "不動煌珠",
+      "english": "Shining Acala Gem",
+      "stats": "HP+4000/DEF+400",
+      "notes": "Increases assault points gradually in the field."
+    },
+    {
+      "japanese": "琥耀珠",
+      "english": "Topaz Gem ",
+      "stats": "DEF/ADF+400"
+    },
+    {
+      "japanese": "琥耀煌珠",
+      "english": "Shining Topaz Gem",
+      "stats": "DEF/ADF+800 "
+    },
+    {
+      "japanese": "神楽",
+      "english": "Kagura",
+      "stats": "DEF/ADF+600",
+      "notes": "Damage increased as the number of enemies increases (up to 70%)"
+    }
+  ],
+  "WATER": [
+    {
+      "japanese": "テイア",
+      "english": "Tear",
+      "stats": "Recovery: Single",
+      "notes": "HP small recovery. Burn Heal"
+    },
+    {
+      "japanese": "テイアラ",
+      "english": "Teara",
+      "stats": "Recovery: Single",
+      "notes": "HP medium recovery. Burn Heal"
+    },
+    {
+      "japanese": "テイアラル",
+      "english": "Tearal",
+      "stats": "Recovery: Single",
+      "notes": "HP large recovery. Burn Heal"
+    },
+    {
+      "japanese": "キュリア",
+      "english": "Curia",
+      "stats": "Recovery: Single",
+      "notes": "Cure all status effects"
+    },
+    {
+      "japanese": "セラス",
+      "english": "Thelas",
+      "stats": "Recovery: Single",
+      "notes": "Revive and HP small recovery"
+    },
+    {
+      "japanese": "アセラス",
+      "english": "Athelas",
+      "stats": "Recovery: Single",
+      "notes": "Revive and HP large recovery"
+    },
+    {
+      "japanese": "アクアブリード",
+      "english": "Aqua Bleed",
+      "stats": "Attack (Power C +): Single",
+      "notes": "Mute (50%)"
+    },
+    {
+      "japanese": "クリスタルエジ",
+      "english": "Crystal Edge",
+      "stats": "Attack (Power C +): Straight line (M)",
+      "notes": "Freeze (25%)"
+    },
+    {
+      "japanese": "ブルーアセンション",
+      "english": "Blue Ascension",
+      "stats": "Attack (Power A): Circle (L)",
+      "notes": "Mute (100%)"
+    },
+    {
+      "japanese": "ダイヤモンド ノヴァ",
+      "english": "Diamond Nova",
+      "stats": "Attack (power S +): Circle (LL)",
+      "notes": "Freeze (80%)"
+    },
+    {
+      "japanese": "HP",
+      "english": "HP 1/2/3",
+      "stats": "Increases HP by rarity. 1200/2400/4800"
+    },
+    {
+      "japanese": "魔防",
+      "english": "Shield 1/2/3",
+      "stats": "ADF+50/100/200 & Magic evasion up 10/15/20%"
+    },
+    {
+      "japanese": "封魔の刃",
+      "english": "Mute 1/2/3/4",
+      "stats": "Increases Str by Rarity. 15/30/60/120",
+      "notes": "Chance to Mute on Attack/Craft - 10/15/20/30% - Scales by Rarity"
+    },
+    {
+      "japanese": "凍結の刃",
+      "english": "Freeze 1/2/3/4",
+      "stats": "Increases Str by Rarity. 15/30/60/120",
+      "notes": "Chance to Freeze on Attack/Craft - 10/15/20/30% - Scales by Rarity"
+    },
+    {
+      "japanese": "破霊の牙",
+      "english": "Spirit Breaker 1/2/3/4",
+      "stats": "Increases Str by Rarity. 15/30/60/120",
+      "notes": "Chance to inflict ADF down on Attack/Craft - 20/25/30/40% - Scales by Rarity"
+    },
+    {
+      "japanese": "丹精",
+      "english": "Effort",
+      "stats": "EP+100/ATS+50",
+      "notes": "Always cook a great dish for compatible characters.",
+      "arts": "Thelas"
+    },
+    {
+      "japanese": "瀑布",
+      "english": "Waterfall ",
+      "notes": "Increases damage against enemies lower leveled than you up to 50%."
+    },
+    {
+      "japanese": "真・瀑布",
+      "english": "True Waterfall ",
+      "notes": "Increases damage against enemies lower leveled than you up to 100%."
+    },
+    {
+      "japanese": "水言鈴",
+      "english": "Water Bell ",
+      "stats": "ATS+40",
+      "notes": "Delay after casting water arts is halved"
+    },
+    {
+      "japanese": "海星鈴",
+      "english": "Ocean Bell ",
+      "stats": "ATS+80",
+      "notes": "Water arts deal 30% more damage\nDelay after casting water arts is halved",
+      "arts": "Blue Ascension"
+    },
+    {
+      "japanese": "真・海星鈴",
+      "english": "True Ocean Bell ",
+      "stats": "ATS+160",
+      "notes": "Water arts deal 40% more damage\nDelay after casting water arts is halved",
+      "arts": "Blue Ascension"
+    },
+    {
+      "japanese": "青龍刃",
+      "english": "Seiryuu",
+      "stats": "STR+80",
+      "notes": "25% chance to both freeze and mute"
+    },
+    {
+      "japanese": "真・青龍刃",
+      "english": "True Seiryuu",
+      "stats": "STR+160",
+      "notes": "30% chance to both freeze and mute"
+    },
+    {
+      "japanese": "治癒",
+      "english": "Heal",
+      "stats": "HP+1000/EP+60",
+      "notes": "HP gradually increases in the field",
+      "arts": "Tear, Teara, Curia"
+    },
+    {
+      "japanese": "氷将珠",
+      "english": "Hyoushou Gem",
+      "stats": "HP+2000/EP+120/ATS+100",
+      "notes": "HP gradually increases in the field",
+      "arts": "Diamond Nova"
+    },
+    {
+      "japanese": "氷将煌珠",
+      "english": "Shining Hyoushou Gem",
+      "stats": "HP+4000/EP+240/ATS+200",
+      "notes": "HP gradually increases in the field",
+      "arts": "Diamond Nova"
+    },
+    {
+      "japanese": "仙道珠",
+      "english": "Sennin Gem ",
+      "stats": "HP+3000/ADF+200/Magic Evasion+25%",
+      "arts": "Tearal, Athelas"
+    },
+    {
+      "japanese": "仙道煌珠",
+      "english": "Shining Sennin Gem ",
+      "stats": "HP+6000/ADF+400/Magic Evasion+30%",
+      "arts": "Tearal, Athelas"
+    },
+    {
+      "japanese": "蒼耀珠",
+      "english": "Sapphire Gem ",
+      "stats": "HP+6000/EP+200"
+    },
+    {
+      "japanese": "蒼耀煌珠",
+      "english": "Shining Sapphire Gem ",
+      "stats": "HP+12000/EP+400"
+    }
+  ],
+  "FIRE": [
+    {
+      "japanese": "ファイアボルト\t",
+      "english": "Fire Bolt",
+      "stats": "Attack (Power C +): Single",
+      "notes": "50% Chance to Burn"
+    },
+    {
+      "japanese": "ベノムフレイム",
+      "english": "Venom Flame",
+      "stats": "Attack (Power C +): Circle (M)",
+      "notes": "25% Chance to Poison, 25% Chance to Burn"
+    },
+    {
+      "japanese": "フレアバタフライ",
+      "english": "Flare Butterfly",
+      "stats": "Attack (Power A +): Circle (L)",
+      "notes": "Burn (25%)"
+    },
+    {
+      "japanese": "ゼルエル・カノン",
+      "english": "Zeruel Cannon",
+      "stats": "Attack (Power SSS): Circle (S)",
+      "notes": "Burn (100%)"
+    },
+    {
+      "japanese": "フォルテ",
+      "english": "Forte",
+      "stats": "Support: Circle (M)",
+      "notes": "STR Up (S)"
+    },
+    {
+      "japanese": "ラ・フォルテ",
+      "english": "La Forte",
+      "stats": "Support: Circle (LL)",
+      "notes": "STR Up (M)"
+    },
+    {
+      "japanese": "ウォリアーゲイン",
+      "english": "Heat Up",
+      "stats": "Support: ALL",
+      "notes": "CP+20, cure Status Down (All)"
+    },
+    {
+      "japanese": "メルティライズ",
+      "english": "Impassion",
+      "stats": "Support: Single",
+      "notes": "CP Recovery"
+    },
+    {
+      "japanese": "攻撃",
+      "english": "Attack 1/2/3",
+      "stats": "Increases Str by Rarity. 20/50/100"
+    },
+    {
+      "japanese": "必殺",
+      "english": "Critical 1/2/3",
+      "stats": "Increases Critical by Rarity. 2/4/6%"
+    },
+    {
+      "japanese": "封技の刃",
+      "english": "Seal 1/2/3/4",
+      "stats": "Increases Str by Rarity. 15/30/60/120",
+      "notes": "Chance to Seal on Attack/Craft - 10/15/20/30% - Scales by Rarity"
+    },
+    {
+      "japanese": "炎傷の刃",
+      "english": "Burn 1/2/3/4",
+      "stats": "Increases Str by Rarity. 15/30/60/120",
+      "notes": "Chance to Burn on Attack/Craft - 10/15/20/30% - Scales by Rarity"
+    },
+    {
+      "japanese": "破剣の牙",
+      "english": "Sword Breaker 1/2/3/4",
+      "stats": "Increases Str by Rarity. 15/30/60/120",
+      "notes": "Chance to inflict STR down on Attack/Craft - 20/25/30/40% - Scales by Rarity"
+    },
+    {
+      "japanese": "憤怒",
+      "english": "Rage",
+      "stats": "Accuracy +100%/Evasion+10%",
+      "notes": "Counters always Critical",
+      "arts": "La Forte"
+    },
+    {
+      "japanese": "真・憤怒",
+      "english": "True Rage",
+      "stats": "Accuracy +100%/Evasion+10%",
+      "notes": "Counters always Critical",
+      "arts": "La Forte"
+    },
+    {
+      "japanese": "火言鈴",
+      "english": "Fire Bell",
+      "stats": "ATS+40",
+      "notes": "Delay after casting fire arts is halved"
+    },
+    {
+      "japanese": "焔星鈴",
+      "english": "Pyre Bell",
+      "stats": "ATS+80",
+      "notes": "Fire arts deal 30% more damage\nDelay after casting fire arts is halved",
+      "arts": "Flare Butterfly"
+    },
+    {
+      "japanese": "真・焔星鈴",
+      "english": "True Pyre Bell",
+      "stats": "ATS+160",
+      "notes": "Fire arts deal 40% more damage\nDelay after casting fire arts is halved",
+      "arts": "Flare Butterfly"
+    },
+    {
+      "japanese": "朱雀刃",
+      "english": "Suzaku",
+      "stats": "STR+80",
+      "notes": "25% chance to both burn and seal"
+    },
+    {
+      "japanese": "真・朱雀刃",
+      "english": "True Suzaku",
+      "stats": "STR+160",
+      "notes": "30% chance to both burn and seal"
+    },
+    {
+      "japanese": "練気",
+      "english": "Invigorate",
+      "stats": "STR+50",
+      "notes": "CP recovers in the field",
+      "arts": "Forte, Impassion"
+    },
+    {
+      "japanese": "武神珠",
+      "english": "Mars Gem",
+      "stats": "STR+100/Crit 8%",
+      "notes": "CP recovers in the field"
+    },
+    {
+      "japanese": "武神煌珠",
+      "english": "Shining Mars Gem",
+      "stats": "STR+200/Crit 10%",
+      "notes": "CP recovers in the field"
+    },
+    {
+      "japanese": "機功",
+      "english": "Ingenuity",
+      "stats": "EP+50/ATS+40",
+      "notes": "EP recovers in the field",
+      "arts": "Heat Up"
+    },
+    {
+      "japanese": "炎帝珠",
+      "english": "Vulcan Gem",
+      "stats": "EP+100/STR+80/ATS+80",
+      "notes": "EP recovers in the field",
+      "arts": "Zeruel Cannon"
+    },
+    {
+      "japanese": "炎帝煌珠",
+      "english": "Shining Vulcan Gem",
+      "stats": "EP+200/STR+160/ATS+160",
+      "notes": "EP recovers in the field",
+      "arts": "Zeruel Cannon"
+    },
+    {
+      "japanese": "紅耀珠",
+      "english": "Ruby Gem",
+      "stats": "STR+200"
+    },
+    {
+      "japanese": "紅耀煌珠",
+      "english": "Shining Ruby Gem",
+      "stats": "STR+400"
+    },
+    {
+      "japanese": "獅子王",
+      "english": "Lion",
+      "stats": "STR+300",
+      "notes": "Damage dealt increases as the number of enemies decreases (up to + 35%)"
+    }
+  ],
+  "WIND": [
+    {
+      "japanese": "エアストライク",
+      "english": "Air Strike",
+      "stats": "Attack (Power C +): Single",
+      "notes": "Blind (50%)"
+    },
+    {
+      "japanese": "ネメシスアロー",
+      "english": "Nemesis Arrow",
+      "stats": "Attack (Power B): Straight line (M)",
+      "notes": "Seal (20%)"
+    },
+    {
+      "japanese": "エアリアルダスト",
+      "english": "Aerial Dust",
+      "stats": "Attack (Power A +): Circle (L)",
+      "notes": "Blind (100%)"
+    },
+    {
+      "japanese": "イクシオン・ヴォルト",
+      "english": "Ixion Volt",
+      "stats": "Attack (power SS +): Circle (LL)",
+      "notes": "Seal (80%)"
+    },
+    {
+      "japanese": "ブレス",
+      "english": "Breath",
+      "stats": "Recovery: Circle (M)",
+      "notes": "HP Heal (S)"
+    },
+    {
+      "japanese": "ホーリーブレス",
+      "english": "Holy Breath",
+      "stats": "Recovery: Circle (L)",
+      "notes": "HP Heal (M)"
+    },
+    {
+      "japanese": "レキュリア",
+      "english": "Recuria",
+      "stats": "Recovery: Circle (LL)",
+      "notes": "Party-wide ailment heal"
+    },
+    {
+      "japanese": "回避",
+      "english": "Evade 1/2/3",
+      "stats": "Evasion+3/6/9%"
+    },
+    {
+      "japanese": "移動",
+      "english": "Move 1/2/3",
+      "stats": "SPD+1/2/3 MOV+2/4/6"
+    },
+    {
+      "japanese": "暗闇の刃",
+      "english": "Blind 1/2/3/4",
+      "stats": "Increases Str by Rarity. 15/30/60/120",
+      "notes": "Chance to Blind on Attack/Craft - 10/15/20/30% - Scales by Rarity"
+    },
+    {
+      "japanese": "睡眠の刃",
+      "english": "Sleep 1/2/3/4",
+      "stats": "Increases Str by Rarity. 15/30/60/120",
+      "notes": "Chance to Sleep on Attack/Craft - 10/15/20/30% - Scales by Rarity"
+    },
+    {
+      "japanese": "破脚の牙",
+      "english": "Leg Breaker 1/2/3/4",
+      "stats": "Increases Str by Rarity. 15/30/60/120",
+      "notes": "Chance to inflict MOV down on Attack/Craft - 20/25/30/40% - Scales by Rarity"
+    },
+    {
+      "japanese": "美臭",
+      "english": "Scent",
+      "stats": "STR/ATS+15/SPD+2/Evasion+6%",
+      "notes": "Enemies will notice you more easily out on the field",
+      "arts": "Breath, Nemesis Arrow"
+    },
+    {
+      "japanese": "蠱惑",
+      "english": "Allure",
+      "stats": "STR/ATS+30/SPD +4/Evasion+9%",
+      "notes": "Enemies will notice you more easily out on the field",
+      "arts": "Recuria, Aerial Dust"
+    },
+    {
+      "japanese": "真・蠱惑",
+      "english": "True Allure",
+      "stats": "STR/ATS+60/SPD +6/Evasion+12%",
+      "notes": "Enemies will notice you more easily out on the field",
+      "arts": "Holy Breath, Ixion Volt"
+    },
+    {
+      "japanese": "風言鈴",
+      "english": "Wind Bell",
+      "stats": "ATS+40",
+      "notes": "Delay after casting Wind arts is halved"
+    },
+    {
+      "japanese": "嵐言鈴",
+      "english": "Storm Bell",
+      "stats": "ATS+80",
+      "notes": "Wind arts damage+30% \nDelay after casting Wind arts is halved",
+      "arts": "Aerial Dust"
+    },
+    {
+      "japanese": "真・嵐言鈴",
+      "english": "True Storm Bell",
+      "stats": "ATS+160",
+      "notes": "Wind arts damage+40%\nDelay after casting Wind arts is halved",
+      "arts": "Aerial Dust"
+    },
+    {
+      "japanese": "革命",
+      "english": "Revolution",
+      "notes": "Increases damage dealt against enemies higher leveled than you by up to 50%."
+    },
+    {
+      "japanese": "真・革命",
+      "english": "True Revolution",
+      "notes": "Increases damage dealt against enemies higher leveled than you by up to 100%."
+    },
+    {
+      "japanese": "白虎刃",
+      "english": "Byakko",
+      "stats": "STR+80",
+      "notes": "Chance to inflict both Blind and Sleep on Attacks/Crafts - 25%."
+    },
+    {
+      "japanese": "真・白虎刃",
+      "english": "True Byakko",
+      "stats": "STR+160",
+      "notes": "Chance to inflict both Blind and Sleep on Attacks/Crafts - 30%."
+    },
+    {
+      "japanese": "風魔",
+      "english": "Bluster",
+      "stats": "STR+30",
+      "notes": "Increases the amount of turns on an enemy's status effect by 1",
+      "arts": "Recuria"
+    },
+    {
+      "japanese": "風神珠",
+      "english": "Aeolus Gem",
+      "stats": "HP+2400/ATS+60/ADF+60/MOV+6",
+      "notes": "Increases the amount of turns on an enemy's status effect by 1",
+      "arts": "Holy Breath"
+    },
+    {
+      "japanese": "風神煌珠",
+      "english": "Shining Aeolus Gem",
+      "stats": "HP+4800/ATS+120/ADF+120/SPD+8/MOV+10",
+      "notes": "Increases the amount of turns on an enemy's status effect by 2",
+      "arts": "Holy Breath"
+    },
+    {
+      "japanese": "雷神珠",
+      "english": "Zeus Gem",
+      "stats": "EP+120/Evasion+12%",
+      "arts": "Ixion Volt"
+    },
+    {
+      "japanese": "雷神煌珠",
+      "english": "Shining Zeus Gem",
+      "stats": "EP+240/Evasion+20%",
+      "arts": "Ixion Volt"
+    },
+    {
+      "japanese": "翠耀珠",
+      "english": "Emerald Gem",
+      "stats": "MOV+10/Evasion+20%"
+    },
+    {
+      "japanese": "翠耀煌珠",
+      "english": "Shining Emerald Gem",
+      "stats": "MOV+12/Evasion+25%"
+    }
+  ],
+  "TIME": [
+    {
+      "japanese": "ソウルブラー",
+      "english": "Soul Blur",
+      "stats": "Attack (Power C +): Single",
+      "notes": "Nightmare (50%)"
+    },
+    {
+      "japanese": "カルバリーエッジ",
+      "english": "Calvary Edge",
+      "stats": "Attack (Power A +): Circle (M)",
+      "notes": "10% of damage is healed"
+    },
+    {
+      "japanese": "ロスト・ジェネシス",
+      "english": "Lost Genesis",
+      "stats": "Attack (Power SSS): All",
+      "notes": "Delay+4, Deathblow (50%)"
+    },
+    {
+      "japanese": "クロノドライブ",
+      "english": "Chrono Drive",
+      "stats": "Support: Circle (LL)",
+      "notes": "SPD/MOV Up (M)"
+    },
+    {
+      "japanese": "クロノブレイク",
+      "english": "Chrono Break",
+      "stats": "Support: Circle (L)",
+      "notes": "SPD/MOV Down (M)"
+    },
+    {
+      "japanese": "クロノバースト",
+      "english": "Chrono Burst",
+      "stats": "Support: Self",
+      "notes": "2 extra turns"
+    },
+    {
+      "japanese": "行動力",
+      "english": "Action 1/2/3",
+      "stats": "SPD+4/8/16"
+    },
+    {
+      "japanese": "駆動",
+      "english": "Cast 1/2/3",
+      "notes": "Arts Casting Time Reduced by 20/25/33%"
+    },
+    {
+      "japanese": "悪夢の刃",
+      "english": "Nightmare 1/2/3/4",
+      "stats": "Increases Str by Rarity. 15/30/60/120",
+      "notes": "Chance to Nightmare on Attack/Craft - 10/15/20/30% - Scales by Rarity"
+    },
+    {
+      "japanese": "破迅の牙 ",
+      "english": "Speed Breaker 1/2/3/4",
+      "stats": "Increases Str by Rarity. 15/30/60/120",
+      "notes": "Chance to inflict SPD down on Attack/Craft - 20/25/30/40% - Scales by Rarity"
+    },
+    {
+      "japanese": "悪戯",
+      "english": "Prankster",
+      "stats": "HP+2000/STR+50",
+      "notes": "Always cook an unusual dish",
+      "arts": "Chrono Break"
+    },
+    {
+      "japanese": "夜煌",
+      "english": "Nightgleam",
+      "stats": "EP+50",
+      "notes": "Increases the damage of your first casted art by 100%\r\nChance to Deathblow on Attack/Craft - 5%"
+    },
+    {
+      "japanese": "冥皇",
+      "english": "Hades Gem",
+      "stats": "EP+100",
+      "notes": "Increases the damage of your first casted art by 100%\nChance to Deathblow on Attack/Craft - 10%"
+    },
+    {
+      "japanese": "真・冥皇",
+      "english": "True Hades Gem",
+      "stats": "EP+200",
+      "notes": "Increases the damage of your first casted art by 150%,\nChance to Deathblow on Attack/Craft - 15%"
+    },
+    {
+      "japanese": "黒言鈴",
+      "english": "Black Bell",
+      "stats": "ATS+40",
+      "notes": "Delay after casting Time arts is halved"
+    },
+    {
+      "japanese": "刻界鈴",
+      "english": "Epoch Bell",
+      "stats": "ATS+80",
+      "notes": "Time arts damage+30%\nDelay after casting Time arts is halved",
+      "arts": "Cavalry Edge"
+    },
+    {
+      "japanese": "真・刻界鈴",
+      "english": "True Epoch Bell",
+      "stats": "ATS+160",
+      "notes": "Time arts damage+40%\nDelay after casting Time arts is halved",
+      "arts": "Cavalry Edge"
+    },
+    {
+      "japanese": "影輪牙",
+      "english": "Umbral Gyre",
+      "stats": "STR+80",
+      "notes": "Chance to inflict SPD/MOV down (S) on Attack/Craft - 40%"
+    },
+    {
+      "japanese": "真・影輪牙",
+      "english": "True Umbral Gyre",
+      "stats": "STR+160",
+      "notes": "Chance to inflict SPD/MOV down (S) on Attack/Craft - 50%"
+    },
+    {
+      "japanese": "韋駄天珠",
+      "english": "Skanda Gem",
+      "stats": "SPD+20",
+      "arts": "Chrono Drive, Chrono Break, Chrono Burst"
+    },
+    {
+      "japanese": "韋駄天煌珠",
+      "english": "Shining Skanda Gem",
+      "stats": "SPD+30",
+      "arts": "Chrono Drive, Chrono Break, Chrono Burst"
+    },
+    {
+      "japanese": "魔王珠",
+      "english": "Diabolos Gem",
+      "stats": "ATS+100",
+      "notes": "Arts Casting Time Reduced by 50%",
+      "arts": "Lost Genesis"
+    },
+    {
+      "japanese": "魔王煌珠",
+      "english": "Shining Diabolos Gem",
+      "stats": "ATS+200",
+      "notes": "Arts Casting Time Reduced by 60%",
+      "arts": "Lost Genesis"
+    },
+    {
+      "japanese": "黒耀珠",
+      "english": "Onyx Gem",
+      "stats": "SPD+25"
+    },
+    {
+      "japanese": "黒耀煌珠",
+      "english": "Shining Onyx Gem",
+      "stats": "SPD+35"
+    },
+    {
+      "japanese": "狂骨",
+      "english": "Kyoukotsu",
+      "stats": "SPD +30",
+      "notes": "Increases Arts damage dealt by 25%, but reduces the radius of the Art."
+    }
+  ],
+  "SPACE": [
+    {
+      "japanese": "ゴルトスフィア",
+      "english": "Golden Sphere",
+      "stats": "Attack (Power C +): Circle (M)"
+    },
+    {
+      "japanese": "エクスクルセイド",
+      "english": "Cross Crusade",
+      "stats": "Attack (Power S): Circle (LL)"
+    },
+    {
+      "japanese": "セヴンス・キャリバー",
+      "english": "Seventh Caliber",
+      "stats": "Attack (Power SSS): All"
+    },
+    {
+      "japanese": "フォルトゥナ",
+      "english": "Fortuna",
+      "stats": "Support: Circle (LL)"
+    },
+    {
+      "japanese": "シャイニング",
+      "english": "Shining",
+      "stats": "Support: Circle (M)"
+    },
+    {
+      "japanese": "セラフィムリング",
+      "english": "Seraphim Ring",
+      "stats": "Recovery: All",
+      "notes": "Revive and HP large recovery\nCures All Abnormal Status"
+    },
+    {
+      "japanese": "省ＥＰ",
+      "english": "EP Cut 1/2/3",
+      "notes": "EP Consumption reduced by 10/20/30% "
+    },
+    {
+      "japanese": "命中",
+      "english": "Hit 1/2/3",
+      "stats": "50/75/100% Hit, 1/2/3% Critical"
+    },
+    {
+      "japanese": "妨害",
+      "english": "Impede 1/2/3",
+      "stats": "Increases Str by Rarity. 10/20/30",
+      "notes": "Attacks and Crafts Increase Enemy Delay by +1/2/3\nChance to Impede on Attack/Craft - 30/60/90%"
+    },
+    {
+      "japanese": "気絶の刃",
+      "english": "Faint 1/2/3/4",
+      "stats": "Increases Str by Rarity. 15/30/60/120",
+      "notes": "Chance to Faint on Attack/Craft - 10/15/20/30% - Scales by Rarity"
+    },
+    {
+      "japanese": "孤剣",
+      "english": "Lone Blade",
+      "stats": "HP+1000",
+      "notes": "Increases the damage of your first normal attack/craft by 50%\nOne turn of Balance Down on the enemy (10%)."
+    },
+    {
+      "japanese": "覇道",
+      "english": "Domination",
+      "stats": "HP+2000",
+      "notes": "Increases the damage of your first normal attack/craft by 100%\nOne turn of Balance Down on the enemy (10%)."
+    },
+    {
+      "japanese": "真・覇道",
+      "english": "True Domination",
+      "stats": "HP+4000",
+      "notes": "Increases the damage of your first normal attack/craft by 150%\nOne turn of Balance Down on the enemy (10%)."
+    },
+    {
+      "japanese": "幸運",
+      "english": "Luck",
+      "stats": "HP+500/EP+50/DEF+50/ADF+50/Evasion+25%",
+      "notes": "Increases Item Drop Rate by 50% (Equipment Only)",
+      "arts": "Fortuna"
+    },
+    {
+      "japanese": "熾天使",
+      "english": "Seraph",
+      "stats": "HP+1000/EP+100/DEF+100/ADF+100/Hit+50%",
+      "notes": "Increases Item Drop Rate by 50% (Equipment Only)",
+      "arts": "Fortuna, Shining, Seraphim Ring"
+    },
+    {
+      "japanese": "真・熾天使",
+      "english": "True Seraph",
+      "stats": "HP+2000/EP+200/DEF+200/ADF+200/Hit+100%",
+      "notes": "Increases Item Drop Rate by 75% (Equipment Only)",
+      "arts": "Fortuna, Shining, Seraphim Ring"
+    },
+    {
+      "japanese": "金言鈴",
+      "english": "Golden Bell",
+      "stats": "ATS+40",
+      "notes": "Delay after casting Space arts is halved"
+    },
+    {
+      "japanese": "聖界鈴",
+      "english": "Holy Bell",
+      "stats": "ATS+80",
+      "notes": "Space arts damage+30%\nDelay after casting Space arts is halved",
+      "arts": "Cross Crusade"
+    },
+    {
+      "japanese": "真・聖界鈴",
+      "english": "True Holy Bell",
+      "stats": "ATS+160",
+      "notes": "Space arts damage+40%\nDelay after casting Space arts is halved",
+      "arts": "Cross Crusade"
+    },
+    {
+      "japanese": "日輪牙",
+      "english": "Solar Gyre",
+      "stats": "STR+80",
+      "notes": "Chance to inflict STR/DEF down (S) on Attack/Craft - 40%"
+    },
+    {
+      "japanese": "真・日輪牙",
+      "english": "True Solar Gyre",
+      "stats": "STR+160",
+      "notes": "Chance to inflict STR/DEF down (S) on Attack/Craft - 50%"
+    },
+    {
+      "japanese": "天帝珠",
+      "english": "Deus Gem",
+      "stats": "EP+200/ATS+50/ADF+50",
+      "notes": "EP Consumption reduced by 40%"
+    },
+    {
+      "japanese": "天帝煌珠",
+      "english": "Shining Deus Gem",
+      "stats": "EP+400/ATS+100/ADF+100",
+      "notes": "EP Consumption reduced by 50%"
+    },
+    {
+      "japanese": "七剣珠",
+      "english": "Sevenfold Gem",
+      "stats": "HP+2000/STR+50/DEF+50",
+      "notes": "Attacks and Crafts Increase Enemy Delay by +4\nChance to Impede on Attack/Craft - 100%",
+      "arts": "Seventh Caliber"
+    },
+    {
+      "japanese": "七剣煌珠",
+      "english": "Shining Sevenfold Gem",
+      "stats": "HP+4000/STR+100/DEF+100",
+      "notes": "Attacks and Crafts Increase Enemy Delay by +6\nChance to Impede on Attack/Craft - 100%",
+      "arts": "Seventh Caliber"
+    },
+    {
+      "japanese": "金耀珠",
+      "english": "Gold Gem",
+      "stats": "Hit 100%, Critical 9%"
+    },
+    {
+      "japanese": "金耀煌珠",
+      "english": "Shining Gold Gem",
+      "stats": "Hit 100%, Critical 12%"
+    },
+    {
+      "japanese": "龍虎",
+      "english": "Dragon and Tiger",
+      "stats": "Hit 100%, Critical 10%",
+      "notes": "Increases Craft damage dealt by 25%, but reduces the radius of the Craft."
+    }
+  ],
+  "MIRAGE": [
+    {
+      "japanese": "アナライズ     ",
+      "english": "Analyze",
+      "stats": "Single",
+      "notes": "Analyze target"
+    },
+    {
+      "japanese": "シルバーソーン",
+      "english": "Silver Thorn",
+      "stats": "Attack (Power C +) Circle (M)",
+      "notes": "Confuse (60%)"
+    },
+    {
+      "japanese": "ガリオンフォート\t",
+      "english": "Garion Fort",
+      "stats": "Attack (Power A+): Straight line (L)",
+      "notes": "4 Turns Random Stat Down (L)"
+    },
+    {
+      "japanese": "アルビオン・ヴォルフ",
+      "english": "Albion Wolf",
+      "stats": "Attack (Power SSS): All",
+      "notes": "Inflicts ALL CANCEL"
+    },
+    {
+      "japanese": "セイントフォース",
+      "english": "Saintly Force",
+      "stats": "Support: Single",
+      "notes": "4 Turns STR/ATS Up (L)"
+    },
+    {
+      "japanese": "クレセントミラー",
+      "english": "Crescent Mirror",
+      "stats": "Support: All",
+      "notes": "4 Turns DEF/ADF Up (L)\nMagic Reflect"
+    },
+    {
+      "japanese": "EP",
+      "english": "EP1/2/3",
+      "stats": "EP+150/300/600"
+    },
+    {
+      "japanese": "精神",
+      "english": "Spirit 1/2/3",
+      "stats": "ATS+25/50/100"
+    },
+    {
+      "japanese": "混乱の刃",
+      "english": "Confuse 1/2/3/4",
+      "stats": "Increases Str by Rarity. 15/30/60/120",
+      "notes": "Chance to Confuse on Attack/Craft - 10/15/20/30% - Scales by Rarity"
+    },
+    {
+      "japanese": "破言の牙",
+      "english": "Voice Breaker 1/2/3/4",
+      "stats": "Increases Str by Rarity. 15/30/60/120",
+      "notes": "Chance to inflict ATS down on Attack/Craft - 20/25/30/40% - Scales by Rarity"
+    },
+    {
+      "japanese": "月鏡",
+      "english": "Moon Lens",
+      "stats": "EP+50, ATS+20",
+      "notes": "View info on enemies not yet analyzed\nUndiscovered Chests appear on map"
+    },
+    {
+      "japanese": "八咫鏡",
+      "english": "Eight-Hand Mirror",
+      "stats": "EP+100, ATS+40",
+      "notes": "View info on enemies not yet analyzed\nUndiscovered Chests appear on map",
+      "arts": "Silver Thorn, Analyze"
+    },
+    {
+      "japanese": "真・八咫鏡",
+      "english": "True Eight-Hand Mirror",
+      "stats": "EP+200, ATS+80",
+      "notes": "View info on enemies not yet analyzed\nUndiscovered Chests appear on map",
+      "arts": "Silver Thorn, Analyze"
+    },
+    {
+      "japanese": "銀言鈴",
+      "english": "Silver Bell",
+      "stats": "ATS+40",
+      "notes": "Delay after casting Mirage arts is halved"
+    },
+    {
+      "japanese": "幽界鈴",
+      "english": "Astral Bell",
+      "stats": "ATS+80",
+      "notes": "Mirage arts damage+30%\nDelay after casting Mirage arts is halved"
+    },
+    {
+      "japanese": "真・幽界鈴",
+      "english": "True Astral Bell",
+      "stats": "ATS+160",
+      "notes": "Mirage arts damage+40%\nDelay after casting Mirage arts is halved"
+    },
+    {
+      "japanese": "玉藻",
+      "english": "Tamamo Gem",
+      "stats": "STR+80",
+      "notes": "Chance to inflict Charm on Attack/Craft - 25%"
+    },
+    {
+      "japanese": "真・玉藻",
+      "english": "True Tamamo Gem",
+      "stats": "STR+160",
+      "notes": "Chance to inflict Charm on Attack/Craft - 50%"
+    },
+    {
+      "japanese": "月輪牙",
+      "english": "Lunar Gyre",
+      "stats": "STR+80",
+      "notes": "Chance to Inflict ATS/ADF (S) Down on Attack/Craft - 40%"
+    },
+    {
+      "japanese": "真・月輪牙",
+      "english": "True Lunar Gyre",
+      "stats": "STR+160",
+      "notes": "Chance to Inflict ATS/ADF (S) Down on Attack/Craft - 50%"
+    },
+    {
+      "japanese": "虎威",
+      "english": "Intimidation",
+      "stats": "EP+100/ATS+50",
+      "notes": "Enemies are less likely to chase you"
+    },
+    {
+      "japanese": "幻狼珠",
+      "english": "Fenrir Gem",
+      "stats": "EP+200/ATS+100",
+      "notes": "Enemies are less likely to chase you",
+      "arts": "Albion Wolf"
+    },
+    {
+      "japanese": "幻狼煌珠",
+      "english": "Shining Fenrir Gem",
+      "stats": "EP+400/ATS+200",
+      "notes": "Enemies are less likely to chase you",
+      "arts": "Albion Wolf"
+    },
+    {
+      "japanese": "龍眼",
+      "english": "Dragon Vision",
+      "stats": "STR+40/ATS+40",
+      "notes": "Automatically analyzes an enemy defeated by quartz user"
+    },
+    {
+      "japanese": "賢王珠",
+      "english": "Odin Gem",
+      "stats": "STR+80/ATS+80",
+      "arts": "Saintly Force, Crescent Mirror"
+    },
+    {
+      "japanese": "賢王煌珠",
+      "english": "Shining Odin Gem",
+      "stats": "STR+160/ATS+160",
+      "arts": "Saintly Force, Crescent Mirror"
+    },
+    {
+      "japanese": "銀耀珠",
+      "english": "Mirage Gem",
+      "stats": "ATS+200"
+    },
+    {
+      "japanese": "銀耀煌珠",
+      "english": "Shining Mirage Gem",
+      "stats": "ATS+400"
+    }
+  ],
+  "LOST": [
+    {
+      "japanese": "グラール セラス",
+      "english": "Grail Thelas",
+      "stats": "HP+1000, SPD+10, MOV+10, Hit Accuracy +100%",
+      "notes": "Raises party from K.O.status and recovers 200% HP (past Max HP if full)."
+    },
+    {
+      "japanese": "アイシクル　メテオ  ",
+      "english": "Icicle Meteo",
+      "stats": "HP+1000, EP+100, DEF & ADF+100",
+      "notes": "(4S damage) 4 turn stats down for all enemies hit."
+    },
+    {
+      "japanese": "プロミネンス　ロア  ",
+      "english": "Prominence Roar",
+      "stats": "STR & DEF+100, MOV+10, Hit Accuracy +100%",
+      "notes": "(4S damage) 200% chance to Burn, retracts any STAT UP from all enemies hit."
+    },
+    {
+      "japanese": "リアノーン・キス ",
+      "english": "Leanon Kiss",
+      "stats": "EP +100, ATS&ADF+100, Evasion +10%",
+      "notes": "200% Fascination to enemies, CP+100 and STR/DEF/ATS/ADF/SPD up Large for all party members."
+    },
+    {
+      "japanese": "ロード・レグナリオン  ",
+      "english": "Lord Regnarion",
+      "stats": "STR & ATS+100, SPD+10, Evasion +10%",
+      "notes": "(5S damage, Break SS)"
+    }
+  ]
+}

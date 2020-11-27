@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  display: flex;
+  -webkit-app-region: drag;
+}
+
+#filters {
+  margin-top: 1.5rem;
+  width: 12%;
+  height: 90vh;
+  overflow-y: scroll;
+  overscroll-behavior: contain;
+}
+
+table {
+  display: block;
+  width: 88%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background-color: black;
+}
+
+table,
+td,
+th {
+  border: 1px solid #333;
+}
+
+tbody th {
+  text-align: left;
+}
+
+.japanese {
+  font-family: "Sawarabi Gothic";
+}

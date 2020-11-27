@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/typeface-sawarabi-gothic/index.css"
+    />
+    <link rel="stylesheet" href="combat.css" />
+    <script src="combat.js"></script>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        renderOverlay({
+          resourceName: "braveOrders",
+          rowTemplate: (braveOrder) => `
+            <td>${braveOrder.name}</td>
+            <td>${braveOrder.bpCost}</td>
+            <td>${braveOrder.turns}</td>
+            <td>${braveOrder.primaryEffect}</td>
+            <td>${braveOrder.secondaryEffect || ""}</td>
+        `,
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="filters"></div>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">ORDER</th>
+          <th scope="col">BP COST</th>
+          <th scope="col">TURNS</th>
+          <th scope="col">PRIMARY EFFECT</th>
+          <th scope="col">SECONDARY EFFECT</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </body>
+</html>

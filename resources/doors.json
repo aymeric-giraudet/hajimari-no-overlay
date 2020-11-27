@@ -1,0 +1,92 @@
+[
+  {
+    "door": 1,
+    "characters": "Lloyd, Kurt",
+    "lvl": 114
+  },
+  {
+    "door": 2,
+    "characters": "Tio, Emma, Altina, Lapis",
+    "lvl": 114
+  },
+  {
+    "door": 3,
+    "characters": "Elie, Juna",
+    "lvl": 121
+  },
+  {
+    "door": 4,
+    "characters": "Musse, Nadia",
+    "lvl": 123
+  },
+  {
+    "door": 5,
+    "characters": "Ash, Swin, Rixia, Renne",
+    "lvl": 123
+  },
+  {
+    "door": 6,
+    "characters": "Randy, Gaius",
+    "lvl": 133
+  },
+  {
+    "door": 7,
+    "characters": "Rean, Arios",
+    "lvl": 133
+  },
+  {
+    "door": 8,
+    "characters": "Alisa, Estelle, Noel, Celine",
+    "lvl": 133
+  },
+  {
+    "door": 9,
+    "characters": "Joshua, Duvalie",
+    "lvl": 150
+  },
+  {
+    "door": 10,
+    "characters": "Wazy, Jusis, Tita, Elise ",
+    "lvl": 150
+  },
+  {
+    "door": "EX1",
+    "characters": "Fie, Toval",
+    "lvl": 155
+  },
+  {
+    "door": "EX2",
+    "characters": "Laura, Agate, Roselia",
+    "lvl": 160
+  },
+  {
+    "door": "EX3",
+    "characters": "Elliot, Vita",
+    "lvl": 165
+  },
+  {
+    "door": "EX4",
+    "characters": "Crow, George, Towa, Angelica",
+    "lvl": 170
+  },
+  {
+    "door": "EX5",
+    "characters": "Olivier, Alfin, Machias",
+    "lvl": 175
+  },
+  {
+    "door": "EX6",
+    "characters": "Sara, Sharon, Aurelia, Victor",
+    "lvl": 180
+  },
+  {
+    "door": "EX7",
+    "characters": "Rufus, Lechter, Claire, Millium",
+    "lvl": 185
+  },
+  {
+    "door": "EX8",
+    "characters": "Spoilers, you'll know who",
+    "lvl": 190
+  }
+]

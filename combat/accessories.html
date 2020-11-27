@@ -2,19 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/typeface-sawarabi-gothic/index.css"
+    />
     <link rel="stylesheet" href="combat.css" />
     <script src="combat.js"></script>
     <script>
       window.addEventListener("DOMContentLoaded", () => {
         renderOverlay({
-          resourceName: "crafts",
-          rowTemplate: (craft) => `
-            <td>${craft.type}</td>
-            <td>${craft.name}</td>
-            <td>${craft.cpCost}</td>
-            <td>${craft.pbu}</td>
-            <td>${craft.aoe}</td>
-            <td>${craft.effects}</td>
+          resourceName: "accessories",
+          rowTemplate: (accessory) => `
+            <td class="japanese">${accessory.japanese}</td>
+            <td>${accessory.english.replace(/\n/g, "<br>")}</td>
+            <td>${accessory.effects}</td>
         `,
         });
       });
@@ -25,11 +26,8 @@
     <table>
       <thead>
         <tr>
-          <th scope="col"></th>
-          <th scope="col">CRAFT</th>
-          <th scope="col">CP</th>
-          <th scope="col">POWER/BREAK/UNBALANCE</th>
-          <th scope="col">AREA</th>
+          <th scope="col">JAPANESE</th>
+          <th scope="col">ENGLISH</th>
           <th scope="col">EFFECTS</th>
         </tr>
       </thead>

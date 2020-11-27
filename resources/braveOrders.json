@@ -1,0 +1,487 @@
+{
+  "AGATE": [
+    {
+      "name": "Crimson Break",
+      "bpCost": 3,
+      "turns": 8,
+      "primaryEffect": "Break Damage+200%",
+      "secondaryEffect": "2 Turns STR Up (M)"
+    }
+  ],
+  "ALISA": [
+    {
+      "name": "Golden Scheme",
+      "bpCost": 2,
+      "turns": 6,
+      "primaryEffect": "Break Damage+200%",
+      "secondaryEffect": "HP+EP 25% Recovery "
+    }
+  ],
+  "ALTINA": [
+    {
+      "name": "Ebon Crest",
+      "bpCost": 4,
+      "turns": 4,
+      "primaryEffect": "Perfect Reflect"
+    }
+  ],
+  "ARIOS": [
+    {
+      "name": "Roaring Wind",
+      "bpCost": 5,
+      "turns": 6,
+      "primaryEffect": "100% Evasion",
+      "secondaryEffect": "1 Turn STR Up (L)"
+    }
+  ],
+  "ASH": [
+    {
+      "name": "Volcanic Hunt",
+      "bpCost": 2,
+      "turns": 5,
+      "primaryEffect": "50% Critical",
+      "secondaryEffect": "1 Turn STR+SPD Up (S)"
+    }
+  ],
+  "C": [
+    {
+      "name": "Criminal Raid",
+      "bpCost": 1,
+      "turns": 5,
+      "primaryEffect": "30% Critical",
+      "secondaryEffect": "CP+15"
+    },
+    {
+      "name": "Dark Requiem",
+      "bpCost": 2,
+      "turns": 8,
+      "primaryEffect": "Arts cast time 3/10",
+      "secondaryEffect": "EP 20% Recovery"
+    }
+  ],
+  "CELINE": [
+    {
+      "name": "Deep Onyx",
+      "bpCost": 3,
+      "turns": 10,
+      "primaryEffect": "All received damage x0.4",
+      "secondaryEffect": "2 Turns DEF+ADF+SPD Up (S)"
+    }
+  ],
+  "CLAIRE": [
+    {
+      "name": "Infinity Order",
+      "bpCost": 5,
+      "turns": 1,
+      "primaryEffect": "Break Damage+400%",
+      "secondaryEffect": "AT Advance"
+    }
+  ],
+  "CROW": [
+    {
+      "name": "Chaos Grion",
+      "bpCost": 3,
+      "turns": 4,
+      "primaryEffect": "Damage Dealt+60%",
+      "secondaryEffect": "HP+EP 30% Recovery"
+    }
+  ],
+  "DUVALIE": [
+    {
+      "name": "Lightning Sword",
+      "bpCost": 4,
+      "turns": 6,
+      "primaryEffect": "Delay x0.4",
+      "secondaryEffect": "2 Turns STR+SPD Up (M)"
+    }
+  ],
+  "ELIE": [
+    {
+      "name": "Strike Bell",
+      "bpCost": 5,
+      "turns": 4,
+      "primaryEffect": "EP Cut 1/10",
+      "secondaryEffect": "AT Advance/Turn Reset"
+    }
+  ],
+  "ELISE": [
+    {
+      "name": "Winter Wind",
+      "bpCost": 2,
+      "turns": 8,
+      "primaryEffect": "50% Evasion",
+      "secondaryEffect": "HP 15% Recovery, CP+15"
+    }
+  ],
+  "ELLIOT": [
+    {
+      "name": "Sapphire Symphony",
+      "bpCost": 3,
+      "turns": 10,
+      "primaryEffect": "All received damage x0.3",
+      "secondaryEffect": "HP 30% Recovery"
+    }
+  ],
+  "EMMA": [
+    {
+      "name": "Luminarion Force",
+      "bpCost": 2,
+      "turns": 8,
+      "primaryEffect": "Absorb Magic Attacks",
+      "secondaryEffect": "4 Turns ATS+ADF Up (M)"
+    }
+  ],
+  "ESTELLE": [
+    {
+      "name": "Adamantine Formation",
+      "bpCost": 4,
+      "turns": 8,
+      "primaryEffect": "All received damage x0.4",
+      "secondaryEffect": "CP+40"
+    }
+  ],
+  "FIE": [
+    {
+      "name": "Zephyr Tempest",
+      "bpCost": 3,
+      "turns": 10,
+      "primaryEffect": "Halves Delay",
+      "secondaryEffect": "2 Turns Insight"
+    }
+  ],
+  "GAIUS": [
+    {
+      "name": "Dominion Roar",
+      "bpCost": 4,
+      "turns": 8,
+      "primaryEffect": "Break Damage+200%",
+      "secondaryEffect": "HP 80% Recovery"
+    }
+  ],
+  "JOSHUA": [
+    {
+      "name": "Carving Shadow",
+      "bpCost": 2,
+      "turns": 6,
+      "primaryEffect": "Halves Delay",
+      "secondaryEffect": "HP 10% Recovery, CP+10"
+    }
+  ],
+  "JUNA": [
+    {
+      "name": "Sledgehammer",
+      "bpCost": 2,
+      "turns": 3,
+      "primaryEffect": "Break Damage+300%"
+    }
+  ],
+  "JUSIS": [
+    {
+      "name": "Noblesse Ark",
+      "bpCost": 2,
+      "turns": 8,
+      "primaryEffect": "Damage Dealt+30% ",
+      "secondaryEffect": "2 Turns STR+ATS+SPD Up (S)"
+    }
+  ],
+  "KURT": [
+    {
+      "name": "Wind Blade",
+      "bpCost": 3,
+      "turns": 4,
+      "primaryEffect": "Delay x0.3",
+      "secondaryEffect": "N/A"
+    }
+  ],
+  "LAPIS": [
+    {
+      "name": "Palace Copellion ",
+      "bpCost": 3,
+      "turns": 12,
+      "primaryEffect": "All received damage x0.4",
+      "secondaryEffect": "HP 20% Recovery"
+    }
+  ],
+  "LAURA": [
+    {
+      "name": "Avalon Hearts",
+      "bpCost": 3,
+      "turns": 3,
+      "primaryEffect": "Damage Dealt+80%",
+      "secondaryEffect": "1 Turn Insight"
+    }
+  ],
+  "LECHTER": [
+    {
+      "name": "Fool Vermillion",
+      "bpCost": 2,
+      "turns": 6,
+      "primaryEffect": "Damage Dealt+40%",
+      "secondaryEffect": "2 Turns Insight "
+    }
+  ],
+  "LLOYD": [
+    {
+      "name": "Raging Hammer",
+      "bpCost": 1,
+      "turns": 4,
+      "primaryEffect": "Break Damage+150%",
+      "secondaryEffect": "CP+15"
+    },
+    {
+      "name": "Toughness Shield",
+      "bpCost": 1,
+      "turns": 6,
+      "primaryEffect": "All received damage x0.5 "
+    }
+  ],
+  "MACHIAS": [
+    {
+      "name": "Omega Operation",
+      "bpCost": 3,
+      "turns": 8,
+      "primaryEffect": "Halves Delay",
+      "secondaryEffect": "2 Turns STR+DEF Up (M)"
+    }
+  ],
+  "MILLIUM": [
+    {
+      "name": "White Decoration",
+      "bpCost": 4,
+      "turns": 8,
+      "primaryEffect": "All received damage x0.1"
+    }
+  ],
+  "MUSSE": [
+    {
+      "name": "Akashic Arts",
+      "bpCost": 3,
+      "turns": 8,
+      "primaryEffect": "EP Consumption 2/5",
+      "secondaryEffect": "EP 25% Recovery"
+    }
+  ],
+  "NADIA": [
+    {
+      "name": "Fancy Spell",
+      "bpCost": 3,
+      "turns": 8,
+      "primaryEffect": "Halves EP Consumption",
+      "secondaryEffect": "2 Turns ATS+SPD Up (S)"
+    }
+  ],
+  "NOEL": [
+    {
+      "name": "Assault Guardian",
+      "bpCost": 2,
+      "turns": 6,
+      "primaryEffect": "All received damage x0.4",
+      "secondaryEffect": "2 Turns STR Up (M) "
+    }
+  ],
+  "RANDY": [
+    {
+      "name": "Proud Warrior",
+      "bpCost": 2,
+      "turns": 6,
+      "primaryEffect": "Damage Dealt+30%",
+      "secondaryEffect": "1 turn STR up (M)"
+    }
+  ],
+  "REAN": [
+    {
+      "name": "Raging Flame",
+      "bpCost": 1,
+      "turns": 4,
+      "primaryEffect": "Damage Dealt+25%",
+      "secondaryEffect": "CP+15"
+    },
+    {
+      "name": "Solid Formation - Black Tortoise",
+      "bpCost": 2,
+      "turns": 8,
+      "primaryEffect": "All received damage x0.5",
+      "secondaryEffect": "HP+EP 15% Recovery"
+    }
+  ],
+  "RENNE": [
+    {
+      "name": "Calamity Sphere",
+      "bpCost": 5,
+      "turns": 4,
+      "primaryEffect": "Arts cast time 3/10",
+      "secondaryEffect": "Acceleration"
+    }
+  ],
+  "RIXIA": [
+    {
+      "name": "Shadow Art: Shiranuhi",
+      "bpCost": 2,
+      "turns": 6,
+      "primaryEffect": "Halves Delay",
+      "secondaryEffect": "2 Turns SPD Up (M)"
+    }
+  ],
+  "SARA": [
+    {
+      "name": "Flame Lightning",
+      "bpCost": 5,
+      "turns": 1,
+      "primaryEffect": "Delay x0.2",
+      "secondaryEffect": "AT Advance"
+    }
+  ],
+  "SCHERAZARD": [
+    {
+      "name": "Heaven's Kiss",
+      "bpCost": 5,
+      "turns": 1,
+      "primaryEffect": "100% Critical",
+      "secondaryEffect": "AT Advance"
+    }
+  ],
+  "SHARON": [
+    {
+      "name": "Phantasmal Butterfly",
+      "bpCost": 4,
+      "turns": 4,
+      "primaryEffect": "100% Evasion",
+      "secondaryEffect": "HP 25% Recovery, CP+25"
+    }
+  ],
+  "SWIN": [
+    {
+      "name": "Shadow Step",
+      "bpCost": 2,
+      "turns": 6,
+      "primaryEffect": "Halves Delay",
+      "secondaryEffect": "2 Turns STR+MOV Up (S)"
+    }
+  ],
+  "TIO": [
+    {
+      "name": "Aeon Shield",
+      "bpCost": 4,
+      "turns": 4,
+      "primaryEffect": "Perfect Reflection",
+      "secondaryEffect": "CP+30"
+    }
+  ],
+  "TITA": [
+    {
+      "name": "Blast Force",
+      "bpCost": 4,
+      "turns": 6,
+      "primaryEffect": "Damage Dealt+60% ",
+      "secondaryEffect": "2 Turns STR+DEF Up (M)"
+    }
+  ],
+  "TOWA": [
+    {
+      "name": "Ninefold Formation",
+      "bpCost": 5,
+      "turns": 12,
+      "primaryEffect": "All received damage x0.2",
+      "secondaryEffect": "HP 50% Recovery"
+    }
+  ],
+  "WAZY": [
+    {
+      "name": "Testaments Cross",
+      "bpCost": 3,
+      "turns": 8,
+      "primaryEffect": "Arts cast time 1/5",
+      "secondaryEffect": "2 Turns ATS Up (M)"
+    }
+  ],
+  "ALFIN": [
+    {
+      "name": "Sacred Shell",
+      "bpCost": 6,
+      "turns": 12,
+      "primaryEffect": "Absorb Magic Attacks",
+      "secondaryEffect": "CP+80"
+    }
+  ],
+  "ANGELICA": [
+    {
+      "name": "Black Dragon",
+      "bpCost": 3,
+      "turns": 6,
+      "primaryEffect": "60% Critical",
+      "secondaryEffect": "3 Turns Insight"
+    }
+  ],
+  "AURELIA": [
+    {
+      "name": "Golden Dragon",
+      "bpCost": 4,
+      "turns": 4,
+      "primaryEffect": "80% Critical",
+      "secondaryEffect": "CP+50"
+    }
+  ],
+  "GEORGE": [
+    {
+      "name": "Draupnir Guard",
+      "bpCost": 5,
+      "turns": 10,
+      "primaryEffect": "Absorb Magic Attacks",
+      "secondaryEffect": "Perfect Guard"
+    }
+  ],
+  "OLIVERT": [
+    {
+      "name": "Elegant Waltz",
+      "bpCost": 4,
+      "turns": 8,
+      "primaryEffect": "EP Consumption 1/5",
+      "secondaryEffect": "2 Turns ATS+ADF Up (M)"
+    }
+  ],
+  "ROSELIA": [
+    {
+      "name": "Red Kagura",
+      "bpCost": 5,
+      "turns": 4,
+      "primaryEffect": "Arts cost 0 EP",
+      "secondaryEffect": "1 Turn ATS Up (L)"
+    }
+  ],
+  "TOVAL": [
+    {
+      "name": "Spiral Arts",
+      "bpCost": 3,
+      "turns": 4,
+      "primaryEffect": "No cast time on Arts",
+      "secondaryEffect": "1 Turn SPD Up (M)"
+    }
+  ],
+  "VICTOR": [
+    {
+      "name": "Valiant Moon",
+      "bpCost": 3,
+      "turns": 4,
+      "primaryEffect": "Break Damage+300%",
+      "secondaryEffect": "1 Turn STR+ATS Up (M)"
+    }
+  ],
+  "VITA": [
+    {
+      "name": "Azure Peacock",
+      "bpCost": 5,
+      "turns": 4,
+      "primaryEffect": "Damage Dealt+100%",
+      "secondaryEffect": "N/A"
+    }
+  ],
+  "Spoilers": [
+    {
+      "name": "Oblivion Blaze",
+      "bpCost": 8,
+      "turns": 7,
+      "primaryEffect": "100% Critical",
+      "secondaryEffect": "CP+100"
+    }
+  ]
+}

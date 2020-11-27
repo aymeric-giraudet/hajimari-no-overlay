@@ -1,0 +1,411 @@
+{
+  "STANDARD": [
+    {
+      "japanese": "ティアの薬",
+      "english": "Tear Balm",
+      "effects": "Single: HP 5000 Recovery"
+    },
+    {
+      "japanese": "ティアラの薬",
+      "english": "Teara Balm",
+      "effects": "Single: HP 10000 Recovery"
+    },
+    {
+      "japanese": "ティアラルの薬",
+      "english": "Tearal Balm",
+      "effects": "Single: HP 15000 Recovery"
+    },
+    {
+      "japanese": "ティア・オルの薬",
+      "english": "Tear-All Balm",
+      "effects": "Single: Full HP Recovery"
+    },
+    {
+      "japanese": "EPチャージI",
+      "english": "EP Charge",
+      "effects": "Single: EP 250 Recovery"
+    },
+    {
+      "japanese": "EPチャージII",
+      "english": "EP Charge II",
+      "effects": "Single: EP 500 Recovery"
+    },
+    {
+      "japanese": "EPチャージIII",
+      "english": "EP Charge III",
+      "effects": "Single: EP 750 Recovery"
+    },
+    {
+      "japanese": "EPチャージIV",
+      "english": "EP Charge IV",
+      "effects": "Single: EP full Recovery"
+    },
+    {
+      "japanese": "セラスの薬",
+      "english": "Reviving Balm",
+      "effects": "Single: Revive K.O; HP 6000 Recovery"
+    },
+    {
+      "japanese": "アセラスの薬",
+      "english": "Celestial Balm",
+      "effects": "Single: Revive K.O; HP 12000 Recovery"
+    },
+    {
+      "japanese": "アセラスの薬・改",
+      "english": "Celestial Balm EX",
+      "effects": "Single: Revive K.O; HP 18000 Recovery"
+    },
+    {
+      "japanese": "ゼラムパウダー",
+      "english": "Zeram Powder",
+      "effects": "Single: Revive K.O; HP Full Recovery; CP + 100"
+    },
+    {
+      "japanese": "ゼラムカプセル",
+      "english": "Zeram Capsule",
+      "effects": "Single: Revive K.O; HP Full Recovery; CP + 200"
+    },
+    {
+      "japanese": "ブレイブシード",
+      "english": "Brave Seed",
+      "effects": "All: Increase BP +3 "
+    },
+    {
+      "japanese": "ブレイブソウル",
+      "english": "Brave Soul",
+      "effects": "All: Max BP"
+    },
+    {
+      "japanese": "精霊香",
+      "english": "Spirit Incense",
+      "effects": "All: Revive K.O; HP 50% Recovery; EP 50% Recovery"
+    },
+    {
+      "japanese": "龍神香",
+      "english": "Dragon Incense",
+      "effects": "All: Revive K.O; HP Full Recovery; EP Full Recovery"
+    },
+    {
+      "japanese": "解毒薬",
+      "english": "Antidote",
+      "effects": "Single: Cure Poison"
+    },
+    {
+      "japanese": "弛緩ジェル",
+      "english": "Relaxing Gel",
+      "effects": "Single: Cure Seal"
+    },
+    {
+      "japanese": "絶縁テープ",
+      "english": "Insulating Tape",
+      "effects": "Single: Cure Mute"
+    },
+    {
+      "japanese": "目薬",
+      "english": "Eye Drops",
+      "effects": "Single: Cure Blind"
+    },
+    {
+      "japanese": "ミントドロップ",
+      "english": "Mint Drop",
+      "effects": "Single: Cure Sleep/Nightmare"
+    },
+    {
+      "japanese": "冷却スプレー",
+      "english": "Cooling Spray",
+      "effects": "Single: Cure Burn"
+    },
+    {
+      "japanese": "解凍カイロ",
+      "english": "Warmer",
+      "effects": "Single: Cure Freeze"
+    },
+    {
+      "japanese": "軟化リキッド",
+      "english": "Softening Ointment",
+      "effects": "Single: Cure Petrify"
+    },
+    {
+      "japanese": "気付け薬",
+      "english": "Stimulant",
+      "effects": "Single: Cure Faint"
+    },
+    {
+      "japanese": "鎮静薬",
+      "english": "Sedative",
+      "effects": "Single: Cure Confusion"
+    },
+    {
+      "japanese": "S-タブレット",
+      "english": "S-Tablet",
+      "effects": "Single: Cure Stats Down"
+    },
+    {
+      "japanese": "キュリアの薬",
+      "english": "Curia Balm",
+      "effects": "Single: Cure All Abnormal Status Effects"
+    },
+    {
+      "japanese": "レキュリアの薬",
+      "english": "Recuria Balm",
+      "effects": "All: Cure All Abnormal Status Effects"
+    },
+    {
+      "japanese": "缶ジュース",
+      "english": "Canned Juice",
+      "effects": "Single: HP 3000 recovery"
+    },
+    {
+      "japanese": "エナジードリンク",
+      "english": "Energy Drink",
+      "effects": "Single: HP 3000 recovery, CP+15"
+    },
+    {
+      "japanese": "ベルコーラ",
+      "english": "Belcola",
+      "effects": "Single: HP 3000 recovery, EP 200 recovery"
+    },
+    {
+      "japanese": "にがトマトウォーター",
+      "english": "Bitter Tomato Water",
+      "effects": "Single: CP+20"
+    },
+    {
+      "japanese": "にがトマトシェイク",
+      "english": "Bitter Tomato Shake",
+      "effects": "Single: CP+30"
+    },
+    {
+      "japanese": "ミッドナイトフィズ",
+      "english": "Midnight Fizz",
+      "effects": "Single: Revive K.O; HP 4000 Recovery"
+    },
+    {
+      "japanese": "オレンジジュース",
+      "english": "Orange Juice",
+      "effects": "Single: HP 6000 Recovery; Cure Poison"
+    },
+    {
+      "japanese": "ブレンドコーヒー",
+      "english": "Blended Coffee",
+      "effects": "Single: HP 6000 Recovery; Cure Sleep/Nightmare"
+    },
+    {
+      "japanese": "インペリアルティー",
+      "english": "Imperial Tea",
+      "effects": "Single: HP 6000 Recovery; Cure Seal"
+    },
+    {
+      "japanese": "ストロベリークレープ",
+      "english": "Strawberry Crepe",
+      "effects": "Single: HP 6000 Recovery; Cure Mute"
+    },
+    {
+      "japanese": "タルタルフィッシュフライ",
+      "english": "Fish Fry Tartar",
+      "effects": "Single: HP 7500 Recovery"
+    },
+    {
+      "japanese": "ヴァンセットバーグ",
+      "english": "Vancetberg",
+      "effects": "Single: 7500 Recovery; Cure Poison"
+    },
+    {
+      "japanese": "龍老炒飯",
+      "english": "Dragon Fried Rice",
+      "effects": "Single: 7500 Recovery; Cure Seal"
+    },
+    {
+      "japanese": "オーゼル流塩麺",
+      "english": "Ozel-Style Salt Noodles",
+      "effects": "Single: 7500 Recovery; Cure Mute"
+    },
+    {
+      "japanese": "バニラゆべし",
+      "english": "Vanilla Dumpling",
+      "effects": "Single: 7500 Recovery; Cure Blind"
+    },
+    {
+      "japanese": "ホットチリぺっきー",
+      "english": "Hot chili Pecky",
+      "effects": "Single: HP 7500 Recovery; Cure Sleep/Nightmare"
+    },
+    {
+      "japanese": "メロンぺっきー",
+      "english": "Melon Pecky",
+      "effects": "Single: HP 7500 Recovery; Cure Burn"
+    },
+    {
+      "japanese": "サモーナぺっきー",
+      "english": "Samona Pecky",
+      "effects": "Single: HP 7500 Recovery; Cure Freeze"
+    },
+    {
+      "japanese": "チーズぺっきー",
+      "english": "Cheese Pecky",
+      "effects": "Single: HP 7500 Recovery; Cure Petrify"
+    },
+    {
+      "japanese": "ハーブぺっきー",
+      "english": "Herb Pecky",
+      "effects": "Single: HP 7500 Recovery; Cure Faint"
+    },
+    {
+      "japanese": "オレンジぺっきー",
+      "english": "Orange Pecky",
+      "effects": "Single: HP 7500 Recovery; Cure Confusion"
+    },
+    {
+      "japanese": "フォレスタスープ",
+      "english": "Forester Soup",
+      "effects": "Single: HP 7500 Recovery; Cure All Abnormal Status Effects"
+    },
+    {
+      "japanese": "太陽と月と星の輝きミックス",
+      "english": "Sun, Moon and Star Mix",
+      "effects": "Single: HP 1000 Recovery; 3 turns STR / ATS / SPD ↑ (Small); Cures Stat Down"
+    },
+    {
+      "japanese": "アイス・オブ・ソレイユ",
+      "english": "Ice of Soleil",
+      "effects": "Single: HP 15000 Recovery; 3 turns ATS / ADF / SPD ↑ (Large); Cures Stat Down"
+    },
+    {
+      "japanese": "アニバーサリーロール",
+      "english": "Anniversary roll",
+      "effects": "Single: HP 1000 Recovery; 3 turns DEF / ADF / SPD ↑ (Small); Cures Stat Down "
+    },
+    {
+      "japanese": "トロピカル・ラバーズ",
+      "english": "Tropical Lovers",
+      "effects": "Single: HP 10000 Recovery; 7 turns DEF / ADF / SPD ↑ (Small); Cures Stat Down"
+    },
+    {
+      "japanese": "タピオカミルクティー",
+      "english": "Tapioca Milk Tea",
+      "effects": "Single: HP 10000 Recovery; 7 turns STR ↑ (Small); Cures Stat Down"
+    },
+    {
+      "japanese": "フラワリー・フィズ",
+      "english": "Flowery Fizz",
+      "effects": "Single: HP 10000 Recovery; 7 turns ATS ↑ (Small); Cures Stat Down"
+    },
+    {
+      "japanese": "パワーポーション",
+      "english": "Power potion",
+      "effects": "Single: HP 4000 Recovery; CP+15; 4 turns STR ↑ (Small); Cures Stat Down"
+    },
+    {
+      "japanese": "シールドポーション",
+      "english": "Shield potion",
+      "effects": "Single: HP 4000 Recovery; EP 150 Recovery; CP+15; 4 turns DEF ↑ (Small); Cures Stat Down"
+    },
+    {
+      "japanese": "マインドポーション",
+      "english": "Mind potion",
+      "effects": "Single: HP 4000 Recovery; EP150 Recovery; 4 turns ATS / ADF ↑ (Small); Cures Stat Down"
+    },
+    {
+      "japanese": "パワーポーションII",
+      "english": "Power Potion II",
+      "effects": "Single: HP 12000 Recovery; CP+30; 4 turns STR ↑ (Middle); Cures Stat Down"
+    },
+    {
+      "japanese": "シールドポーションII",
+      "english": "Shield Potion II",
+      "effects": "Single: HP 12000 Recovery; EP 450 Recovery; CP+30; 4 turns DEF ↑ (Middle); Cures Stat Down"
+    },
+    {
+      "japanese": "マインドポーションII",
+      "english": "Mind Potion II",
+      "effects": "Single: HP 12000 Recovery; EP 450; Recovery 4 turns ATS / ADF ↑ (Middle); Cures Stat Down"
+    },
+    {
+      "japanese": "パワーポーションΩ",
+      "english": "Power potion Ω",
+      "effects": "Single: HP 24000 Recovery; CP+30; 4 turns STR ↑ (Large); Cures Stat Down"
+    },
+    {
+      "japanese": "シールドポーションΩ",
+      "english": "Shield potion Ω",
+      "effects": "Single: HP 24000 Recovery; EP900 Recovery; CP +30 4 turns DEF ↑ (Large); Cures Stat Down"
+    },
+    {
+      "japanese": "マインドポーションΩ",
+      "english": "Mind potion Ω",
+      "effects": "Single: HP 24000 Recovery; EP900 Recovery; 4 turns ATS / ADF ↑ (Large); Cures Stat Down"
+    },
+    {
+      "japanese": "煙り玉",
+      "english": "Smoke Ball",
+      "effects": "All: 100% retreat"
+    },
+    {
+      "japanese": "バトルスコープ",
+      "english": "Battle Scope",
+      "effects": "Information analysis"
+    }
+  ],
+  "ENHANCEMENT": [
+    {
+      "japanese": "碧い雫",
+      "english": "Azure Drop",
+      "effects": "Single: EXP +10000"
+    },
+    {
+      "japanese": "碧い神水",
+      "english": "Azure Divine Water",
+      "effects": "Single: EXP +25000"
+    },
+    {
+      "japanese": "命の雫",
+      "english": "Life Drop",
+      "effects": "Single: Maximum HP +20"
+    },
+    {
+      "japanese": "力の雫",
+      "english": "Strength Drop",
+      "effects": "Single: STR + 1"
+    },
+    {
+      "japanese": "守の雫",
+      "english": "Defense Drop",
+      "effects": "Single: DEF + 1"
+    },
+    {
+      "japanese": "魔の雫",
+      "english": "Mind Drop",
+      "effects": "Single: ATS + 1"
+    },
+    {
+      "japanese": "霊の雫",
+      "english": "Spirit Drop",
+      "effects": "Single: ADF + 1"
+    },
+    {
+      "japanese": "命の神水",
+      "english": "Divine Water of Life",
+      "effects": "Single: Maximum HP +100"
+    },
+    {
+      "japanese": "力の神水",
+      "english": "Divine Water of Strength",
+      "effects": "Single: STR + 5"
+    },
+    {
+      "japanese": "守の神水",
+      "english": "Divine Water of Defense",
+      "effects": "Single: DEF + 5"
+    },
+    {
+      "japanese": "魔の神水",
+      "english": "Divine Water of Mind",
+      "effects": "Single: ATS + 5"
+    },
+    {
+      "japanese": "霊の神水",
+      "english": "Divine Water of Spirit",
+      "effects": "Single: ADF + 5"
+    }
+  ]
+}

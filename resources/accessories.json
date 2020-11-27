@@ -1,0 +1,841 @@
+{
+  "USABLE BY ALL": [
+    {
+      "japanese": "シルバーピアス",
+      "english": "Silver Earrings ",
+      "effects": "Prevents poison."
+    },
+    {
+      "japanese": "シルバーチェイン",
+      "english": "Silver Chain",
+      "effects": "HP+3000, DEF/ADF+45, prevents poison."
+    },
+    {
+      "japanese": "シルバーチャーム",
+      "english": "Silver Charm",
+      "effects": "HP+6000, DEF/ADF+90, prevents poison."
+    },
+    {
+      "japanese": "シルバーアミュレット",
+      "english": "Silver amulet",
+      "effects": "HP+12000, DEF/ADF+180, prevents poison."
+    },
+    {
+      "japanese": "コーラルリング",
+      "english": "Coral Ring",
+      "effects": "Prevents seal."
+    },
+    {
+      "japanese": "コーラルブレス",
+      "english": "Coral Bracelet",
+      "effects": "STR+45, 4% Critical, prevents seal."
+    },
+    {
+      "japanese": "コーラルチャーム",
+      "english": "Coral Charm",
+      "effects": "STR+90, 6% Critical, prevents seal."
+    },
+    {
+      "japanese": "コーラルアミュレット",
+      "english": "Coral amulet",
+      "effects": "STR+180, 8%Critical, prevents seal."
+    },
+    {
+      "japanese": "マーブルリング",
+      "english": "Marble Ring",
+      "effects": "Prevents mute."
+    },
+    {
+      "japanese": "マーブルブレス",
+      "english": "Marble Bracelet",
+      "effects": "EP+150, ATS+45, prevents mute."
+    },
+    {
+      "japanese": "マーブルチャーム",
+      "english": "Marble Charm",
+      "effects": "EP+300, ATS+90, prevents mute."
+    },
+    {
+      "japanese": "マーブルアミュレット",
+      "english": "Marble amulet",
+      "effects": "EP+600, ATS+180, prevents mute."
+    },
+    {
+      "japanese": "ホワイトレンズ",
+      "english": "White Lens",
+      "effects": "Prevents blind."
+    },
+    {
+      "japanese": "シャイングラス",
+      "english": "Shining Glass",
+      "effects": "STR/ATS+25, 50% Hit, prevents blind."
+    },
+    {
+      "japanese": "パンツァーゴーグル",
+      "english": "Panzer Goggles",
+      "effects": "STR/ATS+50, 100% Hit, prevents blind."
+    },
+    {
+      "japanese": "パンツァーゴーグルΩ",
+      "english": "Panzer Goggles Ω",
+      "effects": "STR/ATS+100, 100% Hit, 2% Critical, prevents blind."
+    },
+    {
+      "japanese": "ブラックバングル",
+      "english": "Black Bangle",
+      "effects": "Prevents sleep."
+    },
+    {
+      "japanese": "すっきりバンダナ",
+      "english": "Clear Bandana",
+      "effects": "Evasion+6%, 4% Critical, prevents sleep."
+    },
+    {
+      "japanese": "覚醒ハチマキ",
+      "english": "Awakener Headband",
+      "effects": "Evasion+9%, 6% Critical, prevents sleep."
+    },
+    {
+      "japanese": "真・覚醒ハチマキ",
+      "english": "True Awakener Headband",
+      "effects": "Evasion+12%, 8% Critical, prevents sleep."
+    },
+    {
+      "japanese": "クールネックレス",
+      "english": "Cool Necklace",
+      "effects": "Prevents burn."
+    },
+    {
+      "japanese": "ひんやりベルト",
+      "english": "Cool Belt",
+      "effects": "ATS/ADF+60, prevents burn."
+    },
+    {
+      "japanese": "冷厳バックル",
+      "english": "Cold Buckle",
+      "effects": "ATS/ADF+120, prevents burn."
+    },
+    {
+      "japanese": "真・冷厳バックル",
+      "english": "True Cold Buckle",
+      "effects": "ATS/ADF+240, prevents burn."
+    },
+    {
+      "japanese": "フレイムジッポー",
+      "english": "Flame Zippo",
+      "effects": "Prevents freeze."
+    },
+    {
+      "japanese": "ぽかぽかソックス",
+      "english": "Warm Socks",
+      "effects": "STR/DEF+60, prevents freeze."
+    },
+    {
+      "japanese": "情熱レギンス",
+      "english": "Passion Leggings",
+      "effects": "STR/DEF+120, prevents freeze."
+    },
+    {
+      "japanese": "真・情熱レギンス",
+      "english": "True Passion Leggings",
+      "effects": "STR/DEF+240, prevents freeze."
+    },
+    {
+      "japanese": "ストーンブローチ",
+      "english": "Stone Brooch",
+      "effects": "Prevents petrify."
+    },
+    {
+      "japanese": "ふわふわストール",
+      "english": "Soft Stole",
+      "effects": "DEF/ADF+60, SPD+3, prevents petrify."
+    },
+    {
+      "japanese": "悠然ショール",
+      "english": "Composure Shawl",
+      "effects": "DEF/ADF+120, SPD+5, prevents petrify."
+    },
+    {
+      "japanese": "真・悠然ショール",
+      "english": "True Composure Shawl",
+      "effects": "DEF/ADF+240, SPD+7, prevents petrify."
+    },
+    {
+      "japanese": "シトラスボトル",
+      "english": "Citrus Bottle",
+      "effects": "Prevents faint."
+    },
+    {
+      "japanese": "オレンジケープ",
+      "english": "Orange Cape",
+      "effects": "STR+60, 4% Evasion, prevents faint."
+    },
+    {
+      "japanese": "燈花のコサージュ",
+      "english": "Orange Corsage",
+      "effects": "STR+120, 6% Evasion, prevents faint."
+    },
+    {
+      "japanese": "ヘリオスブーケ",
+      "english": "Helios Bouquet",
+      "effects": "STR+240, 8% Evasion, prevents faint."
+    },
+    {
+      "japanese": "フローラルボトル",
+      "english": "Floral Bottle",
+      "effects": "Prevents confusion."
+    },
+    {
+      "japanese": "プリズムケープ",
+      "english": "Prismatic Cape",
+      "effects": "ATS+60, SPD+2, prevents confusion."
+    },
+    {
+      "japanese": "桜花のコサージュ",
+      "english": "Cherry Blossom Corsage",
+      "effects": "ATS+120, SPD+4, prevents confusion."
+    },
+    {
+      "japanese": "セレネスブーケ",
+      "english": "Serene Bouquet",
+      "effects": "ATS+240, SPD+6, prevents confusion."
+    },
+    {
+      "japanese": "ホーリーチェイン",
+      "english": "Holy Chain",
+      "effects": "Prevents deathblow."
+    },
+    {
+      "japanese": "ホーリースフィア",
+      "english": "Holy Sphere",
+      "effects": "HP+1500, EP+75, 5% Evasion, prevents deathblow."
+    },
+    {
+      "japanese": "ホーリーシンボル",
+      "english": "Holy Symbol",
+      "effects": "HP+3000, EP+150, 7% Evasion, prevents deathblow."
+    },
+    {
+      "japanese": "ホーリークラウン",
+      "english": "Holy Crown",
+      "effects": "HP+6000, EP+300, 9% Evasion, prevents deathblow."
+    },
+    {
+      "japanese": "フォースシール",
+      "english": "Force Seal",
+      "effects": "Prevents Stat Down."
+    },
+    {
+      "japanese": "フォースメダル",
+      "english": "Force Medal",
+      "effects": "DEF/ADF+75, 50% Hit, 3% Critical,Prevents Stat Down."
+    },
+    {
+      "japanese": "フォースシンボル",
+      "english": "Force Symbol",
+      "effects": "DEF/ADF+150, 100% Hit, 5% Critical, Prevents Stat Down."
+    },
+    {
+      "japanese": "フォースクラウン",
+      "english": "Force Crown",
+      "effects": "DEF/ADF+300, 100% Hit, 7% Critical, Prevents Stat Down."
+    },
+    {
+      "japanese": "レザーウォッチ",
+      "english": "Leather Watch",
+      "effects": "Prevents Delay"
+    },
+    {
+      "japanese": "ブロンズウォッチ",
+      "english": "Bronze Watch",
+      "effects": "STR/ATS+45, SPD+5, Prevents Delay"
+    },
+    {
+      "japanese": "シルヴァリーウォッチ",
+      "english": "Silver Watch",
+      "effects": "STR/ATS+90, SPD+7, Prevents Delay"
+    },
+    {
+      "japanese": "ゴルディオンウォッチ",
+      "english": "Gordion Watch",
+      "effects": "STR/ATS+180, SPD+9, Prevents Delay"
+    },
+    {
+      "japanese": "身代わりマペット",
+      "english": "Proxy Puppet",
+      "effects": "Revive once from K.O. with 50% HP. Accessory breaks."
+    },
+    {
+      "japanese": "身代わりマペット+",
+      "english": "Proxy Puppet+",
+      "effects": "10% Evasion, Revive once from K.O with 100% HP/EP. \nAccessory Breaks\n"
+    },
+    {
+      "japanese": "土壇場マペット",
+      "english": "Emergency Puppet",
+      "effects": "20% Evasion, Revive once from K.O. with 100% HP/EP and 100 CP. Accessory breaks."
+    },
+    {
+      "japanese": "超・土壇場マペット",
+      "english": "Super Emergency Puppet",
+      "effects": "30% Evasion, Revive once from K.O. with 100% HP/EP and 200 CP.\nAccessory breaks."
+    },
+    {
+      "japanese": "イエローペンデュラム",
+      "english": "Yellow Pendulum",
+      "effects": "Prevents Seal/Mute/Stat Down."
+    },
+    {
+      "japanese": "イエロークレスト",
+      "english": "Yellow Crest",
+      "effects": "DEF/ADF+200, Prevents Seal/Mute/Stat Down."
+    },
+    {
+      "japanese": "ディープオーカー",
+      "english": "Deep Ocher",
+      "effects": "DEF/ADF+400, Prevents Seal/Mute/Stat Down\nRevive once from K.O. with 100% HP."
+    },
+    {
+      "japanese": "ディープオーカー零",
+      "english": "Deep Ocher Zero",
+      "effects": "DEF/ADF+800, Prevents Seal/Mute/Stat Down\nRevive once from K.O. with 100% HP/EP and 100 CP."
+    },
+    {
+      "japanese": "ブルーペンデュラム",
+      "english": "Blue Pendulum",
+      "effects": "Prevents Poison/Blind/Burn"
+    },
+    {
+      "japanese": "ブルークレスト",
+      "english": "Blue Crest",
+      "effects": "ATS+125, Prevents Poison/Blind/Burn"
+    },
+    {
+      "japanese": "サイレンスブルー",
+      "english": "Still Blue",
+      "effects": "ATS+250, Prevents Poison/Blind/Burn"
+    },
+    {
+      "japanese": "サイレンスブルー零",
+      "english": "Still Blue Zero",
+      "effects": "ATS+500, Prevents Poison/Blind/Burn\nReduces EP Consumption by 25%"
+    },
+    {
+      "japanese": "レッドペンデュラム",
+      "english": "Red Pendulum",
+      "effects": "Prevents Freeze/Petrify/Faint"
+    },
+    {
+      "japanese": "レッドクレスト",
+      "english": "Red Crest",
+      "effects": "STR+125, Prevents Freeze/Petrify/Faint"
+    },
+    {
+      "japanese": "パシオンルージュ",
+      "english": "Passion Rouge",
+      "effects": "STR+250, Prevents Freeze/Petrify/Faint\nBreak Damage +50%"
+    },
+    {
+      "japanese": "パシオンルージュ零",
+      "english": "Passion Rouge Zero",
+      "effects": "STR+500, Prevents Freeze/Petrify/Faint\nBreak Damage +100%"
+    },
+    {
+      "japanese": "グリーンペンデュラム",
+      "english": "Green Pendulum",
+      "effects": "Prevents Sleep/Nightmare/Confuse"
+    },
+    {
+      "japanese": "グリーンクレスト",
+      "english": "Green Crest",
+      "effects": "50% Hit, 5% Evasion, Prevents Sleep/Nightmare/Confuse"
+    },
+    {
+      "japanese": "エヴァーグリーン",
+      "english": "Evergreen",
+      "effects": "100% Hit, 10% Evasion, Prevents Sleep/Nightmare/Confuse"
+    },
+    {
+      "japanese": "エヴァーグリーン零",
+      "english": "Evergreen Zero",
+      "effects": "100% Hit, 15% Evasion, Prevents Sleep/Nightmare/Confuse\n50% chance to Evade Magic Attacks"
+    },
+    {
+      "japanese": "ダークペンデュラム",
+      "english": "Dark Pendulum",
+      "effects": "Prevents Deathblow/Delay/Vanish."
+    },
+    {
+      "japanese": "ダーククレスト",
+      "english": "Dark Crest",
+      "effects": "SPD+8. Prevents Deathblow/Delay/Vanish"
+    },
+    {
+      "japanese": "アビスシャドウ",
+      "english": "Abyss Shadow",
+      "effects": "SPD+16, Prevents Deathblow/Delay/Vanish"
+    },
+    {
+      "japanese": "アビスシャドウ零",
+      "english": "Abyss Shadow Zero",
+      "effects": "SPD +24, Prevents Deathblow/Delay/Vanish\nAttacks/Crafts inflict Delay +4"
+    },
+    {
+      "japanese": "グラールロケット",
+      "english": "Grail Locket",
+      "effects": "Prevents All Abnormal Status"
+    },
+    {
+      "japanese": "グラールロケット・ウル",
+      "english": "Grail Locket Ur",
+      "effects": "HP+3000, STR+300, 5% Evasion, Prevents All Abnormal Status\nStart battle with 1 Turn of Balance down 50%\n15% Critical "
+    },
+    {
+      "japanese": "グラールロケット・ロア",
+      "english": "Grail Locket Loa",
+      "effects": "EP+150, ATS+300, 5% Evasion, Prevents all Abnormal Status\nArts Cast time reduced by 33%\n20% Arts Critical"
+    },
+    {
+      "japanese": "必勝ハチマキ",
+      "english": "Gladiator Headband",
+      "effects": "STR/DEF/ADF+75, CP Recovery+30%."
+    },
+    {
+      "japanese": "真・必勝ハチマキ",
+      "english": "True Gladiator Headband",
+      "effects": "STR/DEF/ADF+150, CP Recovery+60%"
+    },
+    {
+      "japanese": "極・必勝ハチマキ",
+      "english": "Extreme Gladiator Headband",
+      "effects": "STR/DEF/ADF+300, CP Recovery+90%"
+    },
+    {
+      "japanese": "闘魂ベルト",
+      "english": "Gladiator Belt",
+      "effects": "STR/ATS+75, CP+2 per turn"
+    },
+    {
+      "japanese": "真・闘魂ベルト",
+      "english": "True Gladiator Belt",
+      "effects": "STR/ATS+150, CP+3 per turn"
+    },
+    {
+      "japanese": "極・闘魂ベルト",
+      "english": "Extreme Gladiator Belt",
+      "effects": "STR/ATS+300, CP+6 per turn"
+    },
+    {
+      "japanese": "カゲマル根付",
+      "english": "Kagemaru Strap",
+      "effects": "SPD+2"
+    },
+    {
+      "japanese": "カゲマル財布",
+      "english": "Kagemaru Wallet",
+      "effects": "SPD+4"
+    },
+    {
+      "japanese": "カゲマルバッジ",
+      "english": "Kagemaru Badge",
+      "effects": "SPD+6"
+    },
+    {
+      "japanese": "カゲマルの帯",
+      "english": "Kagemaru Belt",
+      "effects": "2% Evasion"
+    },
+    {
+      "japanese": "カゲマルの栞",
+      "english": "Kagemaru Bookmark",
+      "effects": "4% Evasion"
+    },
+    {
+      "japanese": "カゲマル手拭い",
+      "english": "Kagemaru Washcloth",
+      "effects": "6% Evasion"
+    },
+    {
+      "japanese": "みっしぃコイン",
+      "english": "Mishy Coin",
+      "effects": "STR+20, 100% Hit, Attacks/Crafts inflict Delay+2"
+    },
+    {
+      "japanese": "みっしぃバッジ",
+      "english": "Mishy Badge",
+      "effects": "STR+30, 100% Hit, Attacks/Crafts inflict Delay+3"
+    },
+    {
+      "japanese": "みっしぃテイル",
+      "english": "Mishy Tail",
+      "effects": "STR+100, 100% Hit, Attacks/Crafts inflict Delay+3"
+    },
+    {
+      "japanese": "みっしぃオルゴール",
+      "english": "Mishy Music Box",
+      "effects": "STR+40, 100% Hit, Attacks/Crafts inflict Delay+4"
+    },
+    {
+      "japanese": "ナイトみっしぃ",
+      "english": "Night Mishy",
+      "effects": "STR+300, 100% Hit, Attacks/Crafts inflict Delay+5"
+    },
+    {
+      "japanese": "みーしぇリボン",
+      "english": "Mishette Ribbon",
+      "effects": "EP+25, ATS+10, Break Damage +10%"
+    },
+    {
+      "japanese": "みーしぇティアラ",
+      "english": "Mishette Tiara",
+      "effects": "EP+50, ATS+20, Break Damage +20%"
+    },
+    {
+      "japanese": "みーしぇバッジ",
+      "english": "Mishette Badge",
+      "effects": "EP+75, ATS+30, Break Damage +30%"
+    },
+    {
+      "japanese": "みーしぇチャーム",
+      "english": "Mishette Charm",
+      "effects": "EP+100, ATS+40, Break Damage +40%"
+    },
+    {
+      "japanese": "クイーンみーしぇ",
+      "english": "Queen Mishette",
+      "effects": "EP+1000, ATS+300, Break Damage +100%"
+    },
+    {
+      "japanese": "メカみっしぃウォッチ",
+      "english": "Mecha Mishy Watch",
+      "effects": "DEF/ADF +20. 20% Increased Equipment Drop rate"
+    },
+    {
+      "japanese": "メカみっしぃゴーグル",
+      "english": "Mecha Mishy Goggles",
+      "effects": "DEF/ADF +40. 30% Increased Equipment Drop rate"
+    },
+    {
+      "japanese": "メカみっしぃライト",
+      "english": "Mecha Mishy Light",
+      "effects": "DEF/ADF +60. 40% Increased Equipment Drop rate"
+    },
+    {
+      "japanese": "メカみっしぃバッジ",
+      "english": "Mecha Mishy Badge",
+      "effects": "DEF/ADF +80. 50% Increased Equipment Drop rate"
+    },
+    {
+      "japanese": "キングメカみっしぃ",
+      "english": "King Mecha Mishy",
+      "effects": "DEF/ADF +400. 100% Increased Equipment Drop rate"
+    },
+    {
+      "japanese": "ぺっきーバッジ",
+      "english": "Pecky Badge",
+      "effects": "HP+2000"
+    },
+    {
+      "japanese": "グランドぺっきーぐるみ",
+      "english": "Grand Pecky",
+      "effects": "HP+25000"
+    },
+    {
+      "japanese": "《英雄》の証",
+      "english": "Hero's Emblem",
+      "effects": "STR+50, CP+2 per turn"
+    },
+    {
+      "japanese": "紅蓮の徽章",
+      "english": "Crimson Lotus Badge",
+      "effects": "HP+1500, STR/ATS+50\nPrevents Stat Down"
+    },
+    {
+      "japanese": "獅子心大綬章",
+      "english": "Lion Heart",
+      "effects": "HP+3000, STR/ATS+75, SPD+5, 100% Hit\nPrevents Stat Down"
+    },
+    {
+      "japanese": "テセウスリング",
+      "english": "RP Rank F - Reward\nTheseus Ring",
+      "effects": "STR/DEF/ADF+150, CP Recovery+60%"
+    },
+    {
+      "japanese": "アーレスベルト",
+      "english": "RP Rank C - Reward\nAres Belt",
+      "effects": "STR/ATS+150, CP+4 per turn"
+    },
+    {
+      "japanese": "ソロモンガーヴ",
+      "english": "RP Rank S - Reward\nSolomon Garb",
+      "effects": "HP+4000, EP+400, SPD+20\nPrevents All Abnormal Status"
+    }
+  ],
+  "CHARACTER SPECIFIC": [
+    {
+      "japanese": "クマ男爵7号",
+      "english": "NADIA ONLY\nBaron Bear No. 7",
+      "effects": "ATS/ADF +50\nArts Cast time reduced by 33%"
+    },
+    {
+      "japanese": "クイックキャリバー",
+      "english": "TOVAL ONLY\nQuick Caliber",
+      "effects": "ATS/ADF +250\nArts Cast time reduced by 50%"
+    },
+    {
+      "japanese": "零のオーブ",
+      "english": "LLOYD ONLY\nZero Orb",
+      "effects": "STR/DEF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "麗のスフィア",
+      "english": "ELIE ONLY\nBeautiful Sphere",
+      "effects": "ATS/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "理のスフィア",
+      "english": "TIO ONLY\nSphere of Reason",
+      "effects": "ATS/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "闘のオーブ",
+      "english": "RANDY ONLY\nWar Orb",
+      "effects": "STR/DEF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "勇のスフィア",
+      "english": "NOEL ONLY\nBravery Sphere",
+      "effects": "STR/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "慧のオーブ",
+      "english": "WAZY ONLY\nWisdom Orb",
+      "effects": "STR/DEF/ATS+100, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "月のスフィア",
+      "english": "RIXIA ONLY\nMoon Sphere",
+      "effects": "STR/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "閃のオーブ",
+      "english": "REAN ONLY\nFlash Orb",
+      "effects": "STR/DEF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "暁のスフィア",
+      "english": "JUNA ONLY\nDawn Sphere",
+      "effects": "STR/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "剋のスフィア",
+      "english": "KURT ONLY\nSphere of Victory",
+      "effects": "STR/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "黒のスフィア",
+      "english": "ALTINA ONLY\nBlack Sphere",
+      "effects": "ATS/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "玲のスフィア",
+      "english": "MUSSE ONLY\nJewel Sphere",
+      "effects": "ATS/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "轟のオーブ",
+      "english": "ASH ONLY\nThunder Orb",
+      "effects": "STR/DEF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "翡のオーブ",
+      "english": "C ONLY\nJade Orb",
+      "effects": "STR/DEF/ATS+100, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "琥のスフィア",
+      "english": "LAPIS ONLY\nAmber Sphere",
+      "effects": "STR/ATS/ADF+100, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "疾のオーブ",
+      "english": "SWIN ONLY\nQuick Orb",
+      "effects": "STR/DEF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "恋のスフィア",
+      "english": "NADIA ONLY\nPassion Sphere",
+      "effects": "ATS/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "天のスフィア",
+      "english": "ALISA ONLY\nHeavenly Sphere",
+      "effects": "ATS/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "響のオーブ",
+      "english": "ELLIOTT ONLY\nSound Orb",
+      "effects": "DEF/ATS+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "凛のスフィア",
+      "english": "LAURA ONLY\nCold Sphere",
+      "effects": "STR/DEF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "識のオーブ",
+      "english": "MACHIAS ONLY\nOrb of Knowledge",
+      "effects": "STR/DEF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "智のスフィア",
+      "english": "EMMA ONLY\nOrb of Intellect ",
+      "effects": "ATS/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "煌のオーブ",
+      "english": "JUSIS ONLY\nShining Orb",
+      "effects": "STR/DEF/ATS+100, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "隼のスフィア",
+      "english": "FIE ONLY\nFalcon Sphere",
+      "effects": "STR/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "鳳のオーブ",
+      "english": "GAIUS ONLY\nPhoenix Orb",
+      "effects": "STR/DEF/ATS+100, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "白のスフィア",
+      "english": "MILLIUM ONLY\nWhite Sphere",
+      "effects": "STR/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "迅のスフィア",
+      "english": "SARA ONLY\nSpeed Sphere",
+      "effects": "STR/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "蒼のオーブ",
+      "english": "CROW ONLY\nBlue Orb",
+      "effects": "STR/DEF/ATS+100, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "宙のスフィア",
+      "english": "TOWA ONLY\nSpace Sphere",
+      "effects": "ATS/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "剛のスフィア",
+      "english": "ANGELICA ONLY\nStrength Sphere",
+      "effects": "STR/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "銅のオーブ",
+      "english": "GEORGE ONLY\nCopper Orb",
+      "effects": "STR/DEF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "慈のスフィア",
+      "english": "ELISE ONLY\nMercy Sphere",
+      "effects": "STR/ATS/ADF+100, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "愛のスフィア",
+      "english": "ALFIN ONLY\nLove Sphere",
+      "effects": "ATS/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "奏のオーブ",
+      "english": "OLIVIER ONLY\nEmperor Orb",
+      "effects": "DEF/ATS+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "朧のスフィア",
+      "english": "SHARON ONLY\nGloom Sphere",
+      "effects": "STR/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "霊のスフィア",
+      "english": "CELINE ONLY\nSpirit Sphere",
+      "effects": "ATS/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "緋のスフィア",
+      "english": "ROSELIA ONLY\nScarlet Sphere",
+      "effects": "ATS/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "絢のスフィア",
+      "english": "AURELIA ONLY\nOrnate Sphere",
+      "effects": "STR/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "洸のオーブ",
+      "english": "VICTOR ONLY\nRadiant Orb",
+      "effects": "STR/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "佳のスフィア",
+      "english": "CLAIRE ONLY\nSphere of Excellence",
+      "effects": "STR/ATS/ADF+100, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "業のオーブ",
+      "english": "LECHTER ONLY\nOrb of Karma",
+      "effects": "STR/DEF/ATS+100, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "陽のスフィア",
+      "english": "ESTELLE ONLY\nSun Sphere",
+      "effects": "STR/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "影のオーブ",
+      "english": "JOSHUA ONLY\nShadow Orb",
+      "effects": "STR/DEF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "刻のスフィア",
+      "english": "RENNE ONLY\nTime Sphere",
+      "effects": "ATS/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "機のスフィア",
+      "english": "TITA ONLY\nMachine Sphere",
+      "effects": "STR/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "竜のオーブ",
+      "english": "AGATE ONLY\nDragon Orb",
+      "effects": "STR/DEF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "誠のオーブ",
+      "english": "TOVAL ONLY\nOrb of Truth",
+      "effects": "DEF/ATS+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "戒のオーブ",
+      "english": "ARIOS ONLY\nOrb of Discipline",
+      "effects": "STR/DEF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "瞬のスフィア",
+      "english": "DUVALIE ONLY\nReflex Orb",
+      "effects": "STR/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "綺のスフィア",
+      "english": "VITA ONLY\nPure Sphere",
+      "effects": "ATS/ADF+150, SPD+15\nCP Recovery Rate+50%, CP+5 per turn"
+    },
+    {
+      "japanese": "劫のオーブ",
+      "english": "Spoiler ONLY\nAlmighty Sphere",
+      "effects": "STR/DEF/ATS+200, SPD+30\nCP Recovery Rate+100%, CP+10 per turn"
+    }
+  ]
+}

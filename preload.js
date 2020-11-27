@@ -21,6 +21,7 @@ contextBridge.exposeInMainWorld("api", {
       width: 910,
       height: 300,
       titleBarStyle: "hidden",
+      transparent: true,
       webPreferences: {
         nodeIntegration: false,
         contextIsolation: true,
@@ -31,5 +32,5 @@ contextBridge.exposeInMainWorld("api", {
 
     win.loadFile(`combat/${section}.html`);
   },
-  getCrafts: () => require("./resources/crafts.json"),
+  getResource: (name) => require(`./resources/${name}.json`),
 });
